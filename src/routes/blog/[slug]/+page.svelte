@@ -1,0 +1,20 @@
+<script>
+  export let data
+  const { title, date, Content } = data
+</script>
+
+<article>
+  <h1>{title}</h1>
+  <p>Published: {date}</p>
+  <Content />
+</article>
+
+<style>
+  article {
+    max-width: 80ch;
+    margin: 0 auto;
+  }
+  :global(p) {
+    line-height: 1.5;
+  }
+</style>
