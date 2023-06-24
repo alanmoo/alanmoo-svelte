@@ -2,13 +2,14 @@
 layout: post
 title:  "Biking to the beach on a Brompton"
 permalink: /blog/where-do-I-put-this-umbrella/
+date: "2021-06-07"
 ---
 
 A friend saw my Instagram story this morning in which I mentioned biking to the beach and had a photo of my umbrella set up in the sand. She asked how I attached the umbrella to the bike, and suggested I blog about it because she'd tried searching for solutions previously and had no luck. 
 
 Admittedly, my solution is a bit of a moment of everything happening to come together, but being as easily sunburned as I am, heading to the beach without an umbrella was a non-starter.
 
-![](/img/post-images/2021-06-07/brompton-umbrella.jpg)
+![](/brompton-umbrella.jpg)
 
 There's a few things at play here:
 
@@ -20,7 +21,7 @@ There's a few things at play here:
 This setup handled 15 miles to the beach and another 15 back with no problems over NYC streets and the Manhattan bridge (which has a lot of seams across the bike path bed).
 
 Here's one more close up of the area I nestled the umbrella into:
-![](/img/post-images/2021-06-07/brompton-umbrella-slot.jpg)
+![](/brompton-umbrella-slot.jpg)
 
 
 And a totally-not-related pro tip I learned today: after-sun lotion makes a fantastic addition to your fridge. Don't wait until you get to the beach to put on that sunblock!

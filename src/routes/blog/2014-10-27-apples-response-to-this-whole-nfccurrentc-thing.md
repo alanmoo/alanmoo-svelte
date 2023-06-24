@@ -2,6 +2,7 @@
 layout: post
 title:  "Apple's response to this whole NFC/CurrentC thing"
 permalink: /blog/apples-response-to-this-whole-nfccurrentc-thing/
+date: "2014-10-27"
 ---
 
 [Apple, to Business Insider](http://www.businessinsider.com/apple-statement-cvs-rite-aid-blocking-apple-pay-2014-10)

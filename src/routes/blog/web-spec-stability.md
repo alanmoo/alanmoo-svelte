@@ -2,7 +2,7 @@
 layout: post
 title:  "Web Spec Stability"
 permalink: /blog/web-spec-stability/
-date: 2014-08-14
+date: "2014-08-14"
 ---
 
 I was browsing Twitter the other day and I saw this tweet:

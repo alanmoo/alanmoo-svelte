@@ -34,7 +34,7 @@
 <ul>
   <li>An advocate for an people first, accessible world, both online and offline</li>
   <li>An experienced engineering leader passionate about empowering individuals on my teams to develop their skills while building performant, standards-compliant web applications.</li>
-  <li>Pragmatic in aiming to ship and iterate rather than start perfect (see: this site design)</li>
+  <li>Inclined to ship and iterate rather than let perfect be the enemy of good (see: this site design)</li>
 </ul>
 </div>
 

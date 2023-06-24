@@ -2,6 +2,7 @@
 layout: post
 title:  "Pursuing change"
 permalink: /blog/pursuing-change/
+date: "2021-06-08"
 ---
 
 When I came back to dust this blog off, I realized I've had some more thoughts on the topic of how to push companies in the direction you want to see them go since I posted about Facebook.

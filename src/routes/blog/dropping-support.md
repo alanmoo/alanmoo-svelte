@@ -2,7 +2,7 @@
 layout: post
 title:  "Dropping support"
 permalink: /blog/dropping-support/
-date: 2014-05-18
+date: "2014-05-18"
 ---
 
 I'm typing this on a plane back from my first trip to Europe, and while there I had an experience that I thought was worth sharing.

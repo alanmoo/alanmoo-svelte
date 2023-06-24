@@ -1,3 +1,0 @@
-<h1>VestaWeather</h1>
-<p>From the first time I heard about <a href="https://vestaboard.com">Vestaboard</a>, I knew I wanted one. I was already diving into home automation, and the idea of a smart display that didn't emit more light in my apartment coupled with the satisfying physical split-flap sound as the board meant it was only a matter of time until I gave in.</p>
-<p>As part of the self-justification process, I started dreaming up how I'd use it. Pretty early on I thought it might be an interesting challenge to display a meaningful weather forecast given the constraint of 132 bits.</p>

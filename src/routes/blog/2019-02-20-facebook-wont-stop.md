@@ -2,6 +2,7 @@
 layout: post
 title:  "Facebook won't stop"
 permalink: /blog/facebook-wont-stop/
+date: "2019-02-20"
 ---
 
 A Facebook recruiter emailed me last week about a role leading a new team. I just got off the phone. Normally I wouldn't convey what a company has briefed me on in an interview, but hey, Facebook has no qualms with collecting information and there was no NDA, so I figure I can collect and share theirs: Basically, they’re building a recruiting tool that he made it seem like was for internal use, but listening a little deeper, it seems like they want to do something like LinkedIn meets Greenhouse.io meets Netflix suggestions. They want to ‘give applicants an opportunity to be more engaged in what opportunities are available, and what roles people have been successful in’. It sounds like they’re going to do this in the same creepy facebook-y way of scraping any information about you that they can find to paint a picture of candidates for recruiters.

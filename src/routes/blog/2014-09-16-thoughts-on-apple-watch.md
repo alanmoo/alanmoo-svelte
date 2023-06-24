@@ -2,6 +2,7 @@
 layout: post
 title:  "Thoughts on the Watch"
 permalink: /blog/thoughts-on-the-watch/
+date: "2014-09-16"
 ---
 
 I remember when the iPhone was originally announced in January 2007. I was excited, to say the least. I mean, I worked at an Apple Store at the time, but the iPhone's potential to change everything was clearly there. I anxiously looked forward to the phone's June release, speculating on so much of how it would work and change how we interact with our phones and one another. This wasn't just a new approach to making a cell phone, it was a miniaturization of desktop computing in a way that hadn't been successfully acheived before.
