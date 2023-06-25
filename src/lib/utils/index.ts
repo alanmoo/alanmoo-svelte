@@ -1,5 +1,5 @@
 export const fetchMarkdownPosts = async () => {
-  const allPostFiles = import.meta.glob(`/src/routes/blog/*.md`)
+  const allPostFiles = import.meta.glob('/src/routes/blog/*.md')
   const iterablePostFiles = Object.entries(allPostFiles)
   const allPosts = await Promise.all(
     iterablePostFiles.map(async ([path, resolver]:[string, ()=>Promise<any>]) => {
@@ -16,7 +16,7 @@ export const fetchMarkdownPosts = async () => {
 }
 
 export const fetchMarkdownProjects = async () => {
-  const allPostFiles = import.meta.glob(`/src/routes/projects/*.md`)
+  const allPostFiles = import.meta.glob('/src/routes/projects/*.md')
   const iterablePostFiles = Object.entries(allPostFiles)
   const allPosts = await Promise.all(
     iterablePostFiles.map(async ([path, resolver]:[string, ()=>Promise<any>]) => {
