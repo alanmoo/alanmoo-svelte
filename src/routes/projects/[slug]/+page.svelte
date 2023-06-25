@@ -1,7 +1,7 @@
 <script>
   export let data
   const { title, date, Content } = data
-  let dateFormat = new Intl.DateTimeFormat('en-US', {year: 'numeric', month:'long', day:'numeric'})
+  let dateFormat = new Intl.DateTimeFormat('en-US', {year: 'numeric', month:'long'})
 </script>
 
 <article>

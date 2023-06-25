@@ -1,5 +1,6 @@
 <script>
   export let data
+  let dateFormat = new Intl.DateTimeFormat('en-US', {year: 'numeric', month:'long'})
   </script>
   
   <h1>Projects</h1>
@@ -12,7 +13,7 @@
             {project.meta.title}
           </a>
         </h2>
-        <time>{project.meta.date}</time>
+        <time>{dateFormat.format(new Date(project.meta.date))}</time>
       </li>
     {/each}
   </ul>
