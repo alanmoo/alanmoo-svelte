@@ -72,11 +72,13 @@
     gap: .5em;
     flex-wrap: wrap;
   }
+
   .intro {
     max-width: 80ch;
-    margin: 4em auto;
+    margin: 4vw auto;
     line-height: 1.5;
   }
+  
   section {
     max-width: 100ch;
     margin: 4em auto 0;
