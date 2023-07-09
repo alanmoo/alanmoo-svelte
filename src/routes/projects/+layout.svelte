@@ -4,7 +4,7 @@
 
 <style>
   .project {
-    max-width: 80ch;
+    max-width: 70ch;
     margin: 0 auto;
   }
   :global(p) {

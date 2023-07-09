@@ -74,11 +74,11 @@
   }
 
   .intro {
-    max-width: 80ch;
+    max-width: 70ch;
     margin: 4vw auto;
     line-height: 1.5;
   }
-  
+
   section {
     max-width: 100ch;
     margin: 4em auto 0;

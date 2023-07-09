@@ -278,7 +278,7 @@
   <style>
     .resume{
       margin: 0 auto;
-      max-width: 80ch;
+      max-width: 70ch;
     }
     .show-print {
       display: none;
