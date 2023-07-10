@@ -2,7 +2,7 @@
   import Header from "$lib/components/header.svelte"
   import { dev } from '$app/environment';
   import { inject } from '@vercel/analytics';
-  
+
   inject({ mode: dev ? 'development' : 'production' });
 </script>
 <Header></Header>
@@ -22,7 +22,7 @@
 <style>
   :global(body){
       background-color: var(--theme-light);
-      font-family: Rubik, serif;
+      font-family: var(--font-sanSerif);
       color: var(--theme-dark);
       font-display: optional;
   }
@@ -32,7 +32,7 @@
     --theme-cyan: hsl(177, 72%, 31%);
     --theme-yellow: hsl(52, 100%, 66%);
     --theme-light: hsl(32, 100%, 97%);
-    /* --font-sanSerif: 'Rubik', "san-serif"; */
+    --font-sanSerif: 'Rubik', system-ui, Helvetica, sans-serif;
   }
   :global(h1, h2, h3, h4, h5, h6) {
     font-family: var(--font-sanSerif);

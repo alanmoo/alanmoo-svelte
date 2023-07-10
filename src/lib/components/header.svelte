@@ -32,13 +32,6 @@
     color: var(--theme-dark);
     text-decoration: none;
   }
-  .elsewhere {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 0.5em;
-  }
   .homepage-link {
     margin-right: 2em;
     margin-bottom: 1em;
