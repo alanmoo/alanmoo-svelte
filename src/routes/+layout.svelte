@@ -29,7 +29,7 @@
   :root{
     --theme-dark: hsl(195, 100%, 7%);
     --theme-brown: hsl(23, 85%, 62%);
-    --theme-cyan: hsl(177, 72%, 31%);
+    --theme-cyan: hsl(177, 72%, 21%);
     --theme-yellow: hsl(52, 100%, 66%);
     --theme-light: hsl(32, 100%, 97%);
     --font-sanSerif: 'Rubik', system-ui, Helvetica, sans-serif;
