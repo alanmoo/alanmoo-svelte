@@ -14,7 +14,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@alanmoo/writing": "git+https://alanmoo@github.com/alanmoo/writing.git",
+		"@alanmoo/writing": "git+https://github.com/alanmoo/writing.git",
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
