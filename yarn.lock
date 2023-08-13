@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@alanmoo/writing@git+https://alanmoo@github.com/alanmoo/writing.git":
+  version "0.0.0"
+  resolved "git+https://alanmoo@github.com/alanmoo/writing.git#376a2f9586c7f502309c6fe17c9294a7e8f57507"
+
 "@esbuild/android-arm64@0.17.17":
   version "0.17.17"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.17.17.tgz#164b054d58551f8856285f386e1a8f45d9ba3a31"
