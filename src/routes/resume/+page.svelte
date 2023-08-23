@@ -49,20 +49,18 @@
     <section>
     <h2>Work Experience</h2>
     <div class="resume_item">
-      <h3 class="job_title">Senior Engineering Manager</h3>
-      <span class="organization"><a href="https://www.policygenius.com">Policygenius</a>/<a href="https://zinnia.com">Zinnia</a></span>
-      <span class="organization">August 2023-Present</span>
+      <h3 class="organization"><a href="https://www.policygenius.com">Policygenius</a> / <a href="https://zinnia.com">Zinnia</a></h3>
+      <h4 class="job_title">Senior Engineering Manager</h4>
+      <span class="role_dates">August 2023-Present</span>
       <p>Following an acquisition of Policygenius by Zinnia, I was promoted to Senior Engineering Manager as part of the Policygenius performance review process. At the same time, the Lead Generation team I led at Policygenius was merged into the Zinnia organization. I manage this combined team of 6 direct reports working on a web application to support Zinnia's Third Party Adminsitration line of business.</p>
       <p>The most significant opportunities ahead of me involve leading the new team through the integration of engineering cultures. Historically, Zinnia has had an agency model where teams build what the customer asks for, while Policygenius has aimed for a generative culture in which engineers are empowered and encouraged to bring suggestions to the table that will improve the product they work on. As part of that integration work, the two goals I have in the short term are:</p>
       <ul>
         <li>Align the team on sustainable development workflows that lead to the team being more effective (as measured by metrics like DORA). The north star here is continuous deployment.</li>
         <li>Streamline team processes in order to reduce churn in the development process. This will primarily involve working with stakeholders to get engineers involved in the discovery process in order to derisk earlier than ticket estimation.</li>
       </ul>
-    </div>
-    <div class="resume_item">
-      <h3 class="job_title">Engineering Manager</h3>
-      <span class="organization"><a href="https://www.policygenius.com">Policygenius</a></span>
-      <span class="organization">September 2021 - July 2023</span>
+ 
+      <h4 class="job_title">Engineering Manager</h4>
+      <span class="role_Dates">September 2021 - July 2023</span>
       <p>At Policygenius I managed two teams. The first was Content/Lead Generation, which was responsible for the public <a href="https://policygenius.com">policygenius.com</a> content site and consumer education in our funnels. The second was Life Consumer, which focused on our life insurance sales funnel.
       </p>
       <p>Primary responsibilities included:</p>
@@ -78,9 +76,7 @@
 
       <p>I guided my teams to prioritize the external user experience first, via performance (measured by Core Web
         Vitals/Lighthouse scores) and accessibility. Once we'd planned to optimize for the user, then we could focus on
-        internal users and then finally the developer experience.</p>
-
-      <p>Some accomplishments include:</p>
+        internal users and then finally the developer experience. Some accomplishments include:</p>
       <ul>
         <li>Due to architectrual changes my team spearheaded, Google now indexes new stories on the content site in one day rather than three.</li>
         <li>Total Blocking Time on the content site reduced by 50%</li>
@@ -92,9 +88,9 @@
       </p>
     </div>
     <div class="resume_item">
-      <h3 class="job_title">Web Engineering Manager</h3>
-      <span class="organization"><a href="https://squarefoot.com">SquareFoot</a></span>
-      <span class="organization">February 2020 - September 2021</span>
+      <h3 class="organization"><a href="https://squarefoot.com">SquareFoot</a></h3>
+      <h4 class="job_title">Web Engineering Manager</h4>
+      <span class="role_dates">February 2020 - September 2021</span>
       <p>
         SquareFoot is a commercial real estate brokerage. I led the team of 4 engineers resposible for the front-end of their client acquisition platform, which was used for showing listings to potential clients, onboarding them into our sales flow, and then facilitating the broker/client search experience.
       </p>
@@ -113,25 +109,22 @@
       <p>Tech Stack: React, Webpack, Next.JS, GraphQL, AWS, Vercel</p>
     </div>
     <div class="resume_item">
-      <h3 class="job_title">Engineering Manager</h3>
-      <span class="organization"><a href="https://foundation.mozilla.org">Mozilla Foundation</a></span>
-      <span class="organization">May 2017 - January 2020</span>
+      <h3 class="organization"><a href="https://foundation.mozilla.org">Mozilla Foundation</a></h3>
+      <h4 class="job_title">Engineering Manager</h4>
+      <span class="role_dates">May 2017 - January 2020</span>
       <p>
         I led a team of 6 web and devops engineers across North America and Germany, building projects to support Mozilla's mission of improving internet health. I worked closely with the design manager, product manager, and digital director to improve the Foundation's main site at foundation.mozilla.org. The design and engineering teams also functioned as a service organization internally. I partnered with the leaders of other teams to identify the best way for us to address their needs while pushing forward on our team's internal road map. I worked with my team to identify workflow challenges, improve their skills, and foster best software development practices while keeping us moving forward. Finally, as both the engineering lead and most senior technical manager in the org, I ensured organizational technology decisions were made prudently with an eye on long term impact and cost.
       </p>
       <p>Tech Stack: Wagtail CMS, React, Django Rest Framework, Heroku</p>
-    </div>
-    <div class="resume_item">
-      <h3 class="job_title">Front End Developer</h3>
-      <span class="organization"><a href="https://foundation.mozilla.org">Mozilla Foundation</a></span>
-      <span class="organization">September 2015 - May 2017</span>
+      <h4 class="job_title">Front End Developer</h4>
+      <span class="role_dates">September 2015 - May 2017</span>
       <!-- <p>
         Upon joining the team, I started working on the existing Webmaker Android app, a web-based app in a native wrapper that existed to empower users to create content on the web, instead of just consuming it. I also helped to create a UI framework for use across our web properties, and built out/enhanced a number of other sites like science.mozilla.org, foundation.mozilla.org, and the initial back-end work for mozillapulse.org as I learned Django.
       </p> -->
     </div>
     <div class="resume_item">
-      <h3 class="job_title">Front End Prototype Developer</h3>
-      <span class="organization">E*TRADE Financial - <span class="location">New York City</span></span>
+      <h3 class="organization"><a href="https://etrade.com">E*TRADE Financial</a></h3>
+      <h4 class="job_title">Front End Prototype Developer</h4>
       <span class="organization">October 2013 - August 2015</span>
       <!-- <p>
         In this role I:
@@ -145,9 +138,9 @@
       </p> -->
     </div>
     <div class="resume_item hide-print">
-      <h3 class="job_title">UI Designer/Developer</h3>
-      <span class="organization">Weill Cornell Medical College - <span class="location">New York City</span></span>
-      <span class="organization">February 2012 - October 2013</span>
+      <h3 class="organization"><a href="https://weill.cornell.edu/">Weill Cornell Medical College</a></h3>
+      <h4 class="job_title">UI Designer/Developer</h4>
+      <span class="role_dates">February 2012 - October 2013</span>
       <ul>
         <!-- <li>Develop responsive Drupal theme for new base distribution, including a new responsive navigation pattern</li> -->
         <!-- <li>Add front end functionality to existing internal applications</li>
@@ -286,6 +279,12 @@
     }
     .show-print {
       display: none;
+    }
+    .job_title {
+      display: inline;
+    }
+    .job_title::after{
+      content:',';
     }
     @media print {
   :root {
