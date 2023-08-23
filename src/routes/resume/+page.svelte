@@ -49,9 +49,20 @@
     <section>
     <h2>Work Experience</h2>
     <div class="resume_item">
+      <h3 class="job_title">Senior Engineering Manager</h3>
+      <div class="organization"><a href="https://www.policygenius.com">Policygenius</a>Zinnia</div>
+      <div class="organization_dates">August 2023-Present</div>
+      <p>Following an acquisition of Policygenius by Zinnia, I was promoted to Senior Engineering Manager as part of the Policygenius performance review process. At the same time, the Lead Generation team I led at Policygenius was merged into the Zinnia organization. I manage this combined team of 6 direct reports working on a web application to support Zinnia's Third Party Adminsitration line of business.</p>
+      <p>The most significant opportunities ahead of me involve leading the new team through the integration of engineering cultures. Historically, Zinnia has had an agency model where teams build what the customer asks for, while Policygenius has aimed for a generative culture in which engineers are empowered and encouraged to bring suggestions to the table that will improve the product they work on. As part of that integration work, the two goals I have in the short term are:</p>
+      <ul>
+        <li>Align the team on sustainable development workflows that lead to the team being more effective (as measured by metrics like DORA). The north star here is continuous deployment.</li>
+        <li>Streamline team processes in order to reduce churn in the development process. This will primarily involve working with stakeholders to get engineers involved in the discovery process in order to derisk earlier than ticket estimation.</li>
+      </ul>
+    </div>
+    <div class="resume_item">
       <h3 class="job_title">Engineering Manager</h3>
       <div class="organization"><a href="https://www.policygenius.com">Policygenius</a></div>
-      <div class="organization_dates">September 2021 - Present</div>
+      <div class="organization_dates">September 2021 - July 2023</div>
       <p>At Policygenius I manage two teams:</p>
         <p>Content/Lead Generation - responsible for the public <a href="https://policygenius.com">policygenius.com</a> content site and consumer education in
         our funnels (four engineers)<br/>
