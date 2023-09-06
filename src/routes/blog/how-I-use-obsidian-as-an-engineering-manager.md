@@ -5,9 +5,9 @@ permalink: /blog/obsidian-as-an-EM/
 date: "2023-09-05"
 ---
 
-There's a lot of context switching required as an engineering manager. I was feeling this intensely as I got into performance review season this year, which is why the [Lead Dev](https://leaddev.com/) mailing list caught my eye when it featured an article about [essential tools for software engineering managers](https://leaddev.com/tech/essential-tools-software-engineering-managers). The article mentioned [Obsidian](https://obsidian.md) and [Roam](https://roamresearch.com/), which successfully nerd-sniped me for a weekend as I explored my options for Personal Knowledge Management (PKM) tools. I ultimately landed on Obsidian, and have been honing my use of it day-to-day for a few months.
+There's a lot of context switching required as an engineering manager. I was feeling this intensely as I got into performance review season this year, which is why the [Lead Dev](https://leaddev.com/) mailing list caught my eye when it featured an article about [essential tools for software engineering managers](https://leaddev.com/tech/essential-tools-software-engineering-managers). The article mentioned [Obsidian](https://obsidian.md) and [Roam](https://roamresearch.com/), which successfully nerd-sniped me for a weekend as I explored my options for Personal Knowledge Management (PKM) tools. I ultimately landed on Obsidian, and have made some broad strokes in terms of setup that I'm reasonably happy with.
 
-I've talked with enough people about this that I figure I should share out my approach so that it might help others hone their approach.
+I've talked with enough people about this that I figure I should share out my approach so that it might help others.
 ## Goals
 As with any project, it was useful to have a few goals up front about what I wanted out of my note system.
 
