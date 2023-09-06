@@ -23,6 +23,7 @@
   :global(code){
     color: var(--theme-light);
     background: var(--theme-dark);
+    text-wrap: wrap;
   }
 
 
