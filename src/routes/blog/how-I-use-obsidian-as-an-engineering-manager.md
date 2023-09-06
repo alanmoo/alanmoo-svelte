@@ -25,7 +25,7 @@ The key plugins I’m using are:
 - QuickAdd
 
 ## Theme
-I use the [Things theme](https://github.com/colineckert/obsidian-things), primarily because of the extra checkbox styles that come with it. I'll talk about how I use those when I cover [[Taking notes with Obsidian as an Engineering Manager#Meeting notes|meeting notes]]
+I use the [Things theme](https://github.com/colineckert/obsidian-things), primarily because of the extra checkbox styles that come with it. I'll talk about how I use those below when I cover meeting notes
 
 ## Folders
 After a few wasted hours of organizing *all* my notes into folders, I realized it was generally the wrong approach, and that [maps of content](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6) would be better for my personal notes. That being said, folders can still be a very useful tool for distinct types of notes. I put all work related notes into a top level folder for the company. This is most useful for filtering later on, so that I can exclude it when I’m doing non-work knowledge management. Inside that folder, I’ve got a few more, which I’ll go into detail on later:
