@@ -98,16 +98,20 @@ The title of the note is `{date} {Meeting title}`, and this is my newest templat
 There are a few conventions I'm trying to stick to as I capture meeting notes (and really any notes).
 
 When something comes up that I need to do, I use the standard markdown checkbox:
-`- [ ] Remember to review the security audit
 
-If that task involves talking to someone else, I put a link to their note in the task
+`- [ ] Remember to review the security audit`
+
+If that task involves talking to someone else, I put a link to their note in the task:
+
 `- [ ] [[@Alice]] Let's dig into that blocker you mentioned`
 
-If I want to capture a win by someone (including myself!), I'll use that syntax from the Things theme, which shows a little cake after the markdown is rendered. 
-`- [w] [[@Brianne]] handled today's incident smoothly 
+If I want to capture a win by someone (including myself!), I'll use that syntax from the Things theme, which shows a little cake after the markdown is rendered:
+
+`- [w] [[@Brianne]] handled today's incident smoothly`
 
 If a task is a piece of critical feedback, once I've delivered it I'll update the original note with a similar syntax:
-`-[!] [[@Casey]] In meetings like this one, when you talk too much it makes people disengage. Remember to try and keep your speaking to 1/n of the meeting time, where n is the number of attendees`
+
+`-[!] [[@Casey]] In meetings like this one, when you talk too much it makes people disengage. Aim to speak no more than 1/n of the meeting time, where n is the number of attendees`
 
 ## People notes
 

@@ -17,13 +17,13 @@
     max-width: 100vw;
     border: 1px solid var(--theme-brown);
     padding: 1em;
-    text-wrap: wrap;
+    white-space: pre-wrap;
   }
 
   :global(code){
     color: var(--theme-light);
     background: var(--theme-dark);
-    text-wrap: wrap;
+    white-space: pre-wrap;
   }
 
 
