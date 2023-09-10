@@ -1,3 +1,8 @@
-```dataview
-list from "" where file.cday = date("2023-09-10")
-/```
+---
+share: true
+dataview: false
+---
+This is some content
+
+
+And some more content
