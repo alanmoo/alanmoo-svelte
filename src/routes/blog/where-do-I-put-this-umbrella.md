@@ -21,6 +21,6 @@ There are a few things at play here:
 This setup handled 15 miles to the beach and another 15 back with no problems over NYC streets and the Manhattan bridge (which has a lot of seams across the bike path bed).
 
 Here's one more close-up of the area I nestled the umbrella into:
-![A close-up of the area of a Brompton folding bike, highlighting a gap between the shock absorber and the fender that a beach umbrella fits into](brompton-umbrella-slot.jpg)
+![A close-up of the area of a Brompton folding bike, highlighting a gap between the shock absorber and the fender that a beach umbrella fits into](/brompton-umbrella-slot.jpg)
 
 And a totally-not-related pro tip I learned today: after-sun lotion makes a fantastic addition to your fridge. Don't wait until you get to the beach to put on that sunblock!
