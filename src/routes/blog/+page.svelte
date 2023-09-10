@@ -1,18 +1,12 @@
-<script>
+<script lang="ts">
+  import BlogPost from '$lib/components/blogPost.svelte';
   export let data
-  </script>
+</script>
   
   <h1>Blog</h1>
     
   <ul>
     {#each data.posts as post}
-      <li>
-        <h2>
-          <a href={post.path}>
-            {post.meta.title}
-          </a>
-        </h2>
-        <time>{post.meta.date}</time>
-      </li>
+    <BlogPost data={post}></BlogPost>
     {/each}
   </ul>
