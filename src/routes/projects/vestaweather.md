@@ -3,8 +3,8 @@ share: true
 category: projects
 ---
 
-![vestaweather.jpeg](vestaweather.jpeg#)
-![A Vestaboard brand split-flap display with 'NYC weather' in the top row and then rows of colors in the four following rows, representing weather condition measurements. The final row has 'N' 7 characters in and 'M' four characters from the end](/vestaweather.jpg "Vestaweather")
+![A Vestaboard brand split-flap display with 'NYC weather' in the top row and then rows of colors in the four following rows, representing weather condition measurements. The final row has 'N' 7 characters in and 'M' four characters from the end](vestaweather.jpeg)
+
 One of my many hobbies is playing around with home automation. When I first heard about [Vestaboard](https://www.vestaboard.com), I knew I wanted one and started thinking about ways to integrate it into my smart home. If you're unfamiliar, it's a messaging device that hangs on the wall and uses split-flap "bits" to show messages on a schedule or demand. These bits are stacks of plastic that quickly flip, making a delightful sound effect as they update. Think of it as a home version of a European train station departures board.
 
 While home sick for a week in January 2022, I built a custom app that shows me the weather on request but leverages the unique constraints of the display to give me the forecast in a digestible way. I’m still playing around with it, but I’m pretty happy with it as it stands. 
