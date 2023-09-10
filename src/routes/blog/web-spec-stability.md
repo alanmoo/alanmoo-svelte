@@ -4,7 +4,6 @@ title: Web Spec Stability
 permalink: /blog/web-spec-stability/
 date: 2014-08-14
 share: true
-category: blog
 ---
 
 I was browsing Twitter the other day and I saw this tweet:
