@@ -1,5 +1,4 @@
 ```dataview
-
-List FROM "" WHERE file.cday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.ctime asc
-
-```
+TASK WHERE contains(text, this.file.name) WHERE status = " "
+SORT file.ctime DESC
+\```
