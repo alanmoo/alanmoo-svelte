@@ -1,8 +1,3 @@
----
-share: true
----
-This is some content
-
-
-
-And some more content
+```dataview
+list from "" where file.cday = date("2023-09-10")
+/```
