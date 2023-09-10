@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "A Wireless Future"
+title: A Wireless Future
 permalink: /blog/a-wireless-future/
-date: "2017-02-11"
+date: 2017-02-11
+share: true
 ---
 
 If you pay attention to the Apple rumor mill at all, there's a recurring notion that this year's iPhone (whatever number it ends up getting) will support wireless charging. Big deal, right? Various phones have had some sort of wireless inductive charing for years, but it's never caught on. The inherent problem with those is that you need to place your phone somewhere specific. That's less useful than cable charging in some sense, because at least you can be 100% certain a cable is plugged in. 
