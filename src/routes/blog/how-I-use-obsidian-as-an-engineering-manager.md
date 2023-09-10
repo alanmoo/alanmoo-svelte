@@ -2,7 +2,7 @@
 layout: post
 title:  "How I use Obsidian as an Engineering Manager"
 permalink: /blog/obsidian-as-an-EM/
-date: "2023-09-05"
+date: 2023-09-05
 ---
 
 There's a lot of context switching required as an engineering manager. I was feeling this intensely as I got into performance review season this year, which is why the [Lead Dev](https://leaddev.com/) mailing list caught my eye when it featured an article about [essential tools for software engineering managers](https://leaddev.com/tech/essential-tools-software-engineering-managers). The article mentioned [Obsidian](https://obsidian.md) and [Roam](https://roamresearch.com/), which successfully nerd-sniped me for a weekend as I explored my options for Personal Knowledge Management (PKM) tools. I ultimately landed on Obsidian, and have made some broad strokes in terms of setup that I'm reasonably happy with.

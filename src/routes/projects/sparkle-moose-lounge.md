@@ -1,6 +1,6 @@
 ---
 layout: post
-date: "2018-02-14"
+date: 2018-02-14
 title: "Sparkle Moose Lounge"
 ---
 

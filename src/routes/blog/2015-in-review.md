@@ -2,7 +2,9 @@
 layout: post
 title:  "2015 in Review"
 permalink: /blog/2015-in-review/
-date: "2015-12-31"
+date: 2015-12-31
+category: blog
+share: true
 ---
 
 This has probably been the most exciting year of my life. In 2015, I
