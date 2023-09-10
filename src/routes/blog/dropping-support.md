@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "Dropping support"
+title: Dropping support
 permalink: /blog/dropping-support/
-date: "2014-05-18"
+date: 2014-05-18
+share: true
 ---
 
 I'm typing this on a plane back from my first trip to Europe, and while there I had an experience that I thought was worth sharing.
 
-My wife and I were in Amsterdam, 1 hour before our overnight train ride to Copenhagen was scheduled to depart. I had purchased the tickets online using the German train company's site. We weren't sure where to go, so we went to the counter where you purchase the international train tickets and show the queue manager the pdf of the ticket on my phone. He looks at it confused for a moment and tells me it needs to be printed. He translates the first line of German on the ticket that states as much.
+My partner and I were in Amsterdam, 1 hour before our overnight train ride to Copenhagen was scheduled to depart. I had purchased the tickets online using the German train company's site. We weren't sure where to go, so we went to the counter where you purchase the international train tickets and show the queue manager the pdf of the ticket on my phone. He looks at it confused for a moment and tells me it needs to be printed. He translates the first line of German on the ticket that states as much.
 
 Shit.
 
