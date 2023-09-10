@@ -1,19 +1,17 @@
 ---
 layout: post
-title:  "Pursuing change"
+title: Pursuing change
 permalink: /blog/pursuing-change/
-date: "2021-06-08"
+date: 2021-06-08
+share: true
 ---
-
 Since leaving Mozilla, I've been doing a lot of thinking about how we as individuals can push companies in the direction we want to see them go. I've talked to some people at various large companies about the problems with big tech, asking recruiters and hiring managers point blank about my concerns around indivdual privacy on the web. One told me that companies like Facebook are going to keep down the path they're on unless the government mandates something, though another made a more helpful point: the people working at these individual companies are doing the best they can, and there can be circumstances they don't forsee, but then they'll try to correct when appropriate. This got me considering the vectors of change available to encourage companies to move in the right direction, and I think it boils down to three core pieces:
 
 * Customer driven change
 * Externally driven change
 * Internal change
-
 ## Customer driven change
 The first is pretty standard- if people stop paying for the services a company offers, the company generally needs to change or cease to exist. This gets a little messy as we talk about "free" services though, where people using the service are closer to being the product than the customer.
-
 ## Externally driven change
 As the recruiter above mentioned, government change is another possible path. I'd say it's likely the most effective method of external change. The catch is there's _a lot_ of inertia move that dial, at least in the US. Before legislation happens, there are other external pressures that can be put on companies, like shaming them or somehow showing them the light of day to hopefully get them to change course. Of course, that all comes back to the fact that companies are made of people and it's up to those individuals to enact change...
 
