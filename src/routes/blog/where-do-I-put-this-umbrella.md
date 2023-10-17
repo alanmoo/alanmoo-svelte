@@ -4,6 +4,7 @@ title: Biking to the beach on a Brompton
 slug: where-do-I-put-this-umbrella
 date: 2021-06-07
 share: true
+summary: I'm very pale and need to bring an umbrella
 ---
 
 A friend saw my Instagram story this morning in which I mentioned biking to the beach and had a photo of my umbrella set up in the sand. She asked how I attached the umbrella to the bike, and suggested I blog about it because she'd tried searching for solutions previously and had no luck. 
@@ -23,4 +24,4 @@ This setup handled 15 miles to the beach and another 15 back with no problems ov
 Here's one more close-up of the area I nestled the umbrella into:
 ![A close-up of the area of a Brompton folding bike, highlighting a gap between the shock absorber and the fender that a beach umbrella fits into](/brompton-umbrella-slot.jpg)
 
-And a totally-not-related pro tip I learned today: after-sun lotion makes a fantastic addition to your fridge. Don't wait until you get to the beach to put on that sunblock!
+And a totally-not-related tip I learned today: after-sun lotion makes a fantastic addition to your fridge. Don't wait until you get to the beach to put on that sunblock!
