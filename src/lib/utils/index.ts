@@ -1,12 +1,21 @@
+import type { PostMeta } from "$lib/components/types"
+
 export const fetchMarkdownPosts = async () => {
   const allPostFiles = import.meta.glob('/src/routes/blog/*.md')
   const iterablePostFiles = Object.entries(allPostFiles)
   const allPosts = await Promise.all(
-    iterablePostFiles.map(async ([path, resolver]:[string, ()=>Promise<any>]) => {
-      const { metadata } = await resolver()
+    iterablePostFiles.map(async ([path, resolver]) => {
+      const { metadata } = await resolver() as { metadata: PostMeta };
       const postPath = path.slice(11, -3)
+      
+      const meta: PostMeta = {
+        title: metadata.title,
+        date: metadata.date,
+        summary: metadata.summary || ''
+      };
+  
       return {
-        meta: metadata,
+        meta,
         path: postPath,
       }
     })

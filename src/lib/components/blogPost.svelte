@@ -10,7 +10,16 @@ let date = new Intl.DateTimeFormat('en-US',{timeZone:'UTC',dateStyle:'medium'}).
       {data.meta.title}
     </a>
   </h2>
-  <time>{date}</time>
+  <p class="post-summary">{data.meta.summary}</p>
 </li>
 
 
+
+<style>
+  .blog-post {
+    list-style: none
+  }
+  .post-summary:empty{
+    display: none;
+  }
+</style>

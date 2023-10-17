@@ -4,6 +4,7 @@ title: Pursuing change
 permalink: /blog/pursuing-change/
 date: 2021-06-08
 share: true
+summary: How do we course correct for capitalism's unmitigated externalities?
 ---
 Since leaving Mozilla, I've been doing a lot of thinking about how we as individuals can push companies in the direction we want to see them go. I've talked to some people at various large companies about the problems with big tech, asking recruiters and hiring managers point blank about my concerns around indivdual privacy on the web. One told me that companies like Facebook are going to keep down the path they're on unless the government mandates something, though another made a more helpful point: the people working at these individual companies are doing the best they can, and there can be circumstances they don't forsee, but then they'll try to correct when appropriate. This got me considering the vectors of change available to encourage companies to move in the right direction, and I think it boils down to three core pieces:
 
