@@ -15,7 +15,4 @@
     max-width: 70ch;
     margin: 0 auto;
   }
-  :global(p, li) {
-    line-height: 1.5;
-  }
 </style>

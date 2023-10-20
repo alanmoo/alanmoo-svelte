@@ -64,7 +64,7 @@
 		<section>
 			<h2>Work Experience</h2>
 			<div class="resume_item">
-				<h3 class="organization">
+				<h3 class="organization" id="Policygenius">
 					<a href="https://www.policygenius.com">Policygenius</a> /
 					<a href="https://zinnia.com">Zinnia</a>
 				</h3>
@@ -148,7 +148,7 @@
 				</p>
 			</div>
 			<div class="resume_item">
-				<h3 class="organization"><a href="https://squarefoot.com">SquareFoot</a></h3>
+				<h3 class="organization" id="SquareFoot"><a href="https://squarefoot.com">SquareFoot</a></h3>
 				<h4 class="job_title">Web Engineering Manager</h4>
 				<span class="role_dates">February 2020 - September 2021</span>
 				<p>
@@ -179,7 +179,7 @@
 				<p>Tech Stack: React, Webpack, Next.JS, GraphQL, AWS, Vercel</p>
 			</div>
 			<div class="resume_item">
-				<h3 class="organization">
+				<h3 class="organization" id="Mozilla Foundation">
 					<a href="https://foundation.mozilla.org">Mozilla Foundation</a>
 				</h3>
 				<h4 class="job_title">Engineering Manager</h4>
@@ -205,7 +205,7 @@
       </p> -->
 			</div>
 			<div class="resume_item">
-				<h3 class="organization"><a href="https://etrade.com">E*TRADE Financial</a></h3>
+				<h3 class="organization" id="E*Trade Financial"><a href="https://etrade.com">E*TRADE Financial</a></h3>
 				<h4 class="job_title">Front End Prototype Developer</h4>
 				<span class="organization">October 2013 - August 2015</span>
 				<!-- <p>
@@ -449,6 +449,17 @@
 	}
 	.job_title::after {
 		content: ',';
+	}
+	.organization {
+		position: sticky;
+		top: 0;
+		background-color: var(--background-color);
+		padding: .5em 0;
+		margin: .5em 0;
+	}
+
+	section > h2 {
+		margin-bottom: 0;
 	}
 	@media print {
 		:root {
