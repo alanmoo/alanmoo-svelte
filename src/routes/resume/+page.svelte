@@ -35,7 +35,7 @@
 			>hello@alanmooiman.com</a
 			>
 		</span>
-		<p>People focused engineering leader focused on empowering team members to grow their carrer and craft while delivering timely value for the business</p>
+		<p>People focused engineering leader focused on empowering team members to grow their career and craft while delivering timely value for the business</p>
 	</header>
 		<!-- .contact_info -->
 	<div class="content">
