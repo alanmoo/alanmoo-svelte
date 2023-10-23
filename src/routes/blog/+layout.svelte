@@ -7,10 +7,7 @@
     max-width: 70ch;
     margin: 0 auto;
   }
-  :global(p) {
-    line-height: 1.5;
-  }
-
+  
   :global(pre) {
     background: var(--theme-dark);
     color: var(--theme-light);
@@ -24,6 +21,7 @@
     color: var(--theme-light);
     background: var(--theme-dark);
     white-space: pre-wrap;
+    padding: 0 0.5ch;
   }
 
 
