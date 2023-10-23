@@ -28,36 +28,31 @@
 	</div>
 	<header>
 		<h1>Alan Mooiman</h1>
-		<h2>Senior Engineering Manager</h2>
-	</header>
-	<!-- .name_title -->
-	<div class="contact_info">
-		<a class="email" href="mailto:hello@alanmooiman.com?subject=👋 Nice résumé"
+		<h2 class="title">Senior Engineering Manager</h2>
+		<!-- .name_title -->
+		<span class="contact_info">
+			<a class="email" href="mailto:hello@alanmooiman.com?subject=👋 Nice résumé"
 			>hello@alanmooiman.com</a
-		>
-	</div>
-	<!-- .contact_info -->
+			>
+		</span>
+		<p>People focused engineering leader focused on empowering team members to grow their carrer and craft while delivering timely value for the business</p>
+	</header>
+		<!-- .contact_info -->
 	<div class="content">
 		<!-- <h3>Objective</h3>
     <p>To lead an engaged, productive, communicative team that outputs high quality projects and works together to help one another improve their skills while building the future.</p> -->
 		<section>
-			<h3>Skills/Experience</h3>
+			<h2>Skills/Experience</h2>
 			<ul class="skills">
 				<li>
-					<span id="managementTime">{managementTime}</span> of cross-functional engineering leadership
+					<span id="managementTime">{managementTime}</span> of engineering leadership
 				</li>
-				<li><span id="industryTime">{industryTime}</span> of web development experience</li>
-				<li>Previously: front-end developer comfortable with back-end work</li>
-				<li>
-					Operates at the intersection of the art of people leadership and the process of
-					engineering management
-				</li>
+				<li><span id="industryTime">{industryTime}</span> of industry experience</li>
 				<li>Focused on solving problems for the business over simply addressing symptoms</li>
 				<li>Vision crafting, OKR setting, building alignment</li>
-				<!-- <li>Familiar with Mac/iOS development</li> -->
 				<li>
 					React, GraphQL, Jest, Cypress, Next.JS, Gatsby, Contentful, NodeJS, CSS, Webpack, Docker,
-					Travis, Datadog, CI/CD
+					Travis, Datadog, CI/CD, Core Web Vitals and web performance
 				</li>
 			</ul>
 		</section>
@@ -69,15 +64,12 @@
 					<a href="https://zinnia.com">Zinnia</a>
 				</h3>
 				<h4 class="job_title">Senior Engineering Manager</h4>
-				<span class="role_dates">August 2023-Present</span>
+				<span class="role_dates">August 2023-October 2023</span>
 				<p>
 					Following an acquisition of Policygenius by Zinnia, I was promoted to Senior Engineering
-					Manager as part of the Policygenius performance review process. At the same time, the Lead
-					Generation team I led at Policygenius was merged into the Zinnia organization. I manage
-					this combined team of 6 direct reports working on a web application to support Zinnia's
-					Third Party Adminsitration line of business.
+					Manager as part of the Policygenius performance review process and tapped to lead a team integrating engineers from both organizations and help bring best practices from each to the combined engineering organization. I laid the groundwork by shaping team processes, building alignment with stakeholders, and widening bottlenecks in the development process where possible. Once the team was established, I reflected on my own career and personal needs and recognized the time was right to take a few months off before searching for my next role.
 				</p>
-				<p>
+				<!-- <p>
 					The most significant opportunities ahead of me involve leading the new team through the
 					integration of engineering cultures. Historically, Zinnia has had an agency model where
 					teams build what the customer asks for, while Policygenius has aimed for a generative
@@ -96,7 +88,7 @@
 						primarily involve working with stakeholders to get engineers involved in the discovery
 						process in order to derisk earlier than ticket estimation.
 					</li>
-				</ul>
+				</ul> -->
 
 				<h4 class="job_title">Engineering Manager</h4>
 				<span class="role_Dates">September 2021 - July 2023</span>
@@ -446,6 +438,7 @@
 	}
 	.job_title {
 		display: inline;
+		font-size: 20px;
 	}
 	.job_title::after {
 		content: ',';
@@ -474,6 +467,10 @@
 
 		h2 {
 			font-size: 1.33em;
+		}
+		.title {
+			display: inline-block;
+			margin: 0 1em 0 0;
 		}
 
 		h3 {
