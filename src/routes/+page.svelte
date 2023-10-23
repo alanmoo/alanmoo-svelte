@@ -1,5 +1,4 @@
 <script>
-	import Card from '../lib/components/card.svelte';
 	import JobCard from '../lib/components/jobCard.svelte';
 	let experiences = [
 		{

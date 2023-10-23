@@ -10,7 +10,6 @@ In the fall of 2015, my partner and I decided to move out of New York City and s
 
 <figcaption>The future front dooor of our new home</figcaption>
 
-
 ![A gutted floor of a building, apprpoximately 60ft wide and just as deep, with some support I-beams throughout. There's a pile of wood scraps in the middle of the space that looks like a ramp, possibly for sliding debris down from a higher floor](/sml-before1.jpg)
 
 <figcaption>What it looked like the day we first saw our future home. Note that the far and left sides of this room would be a second apartment.</figcaption>

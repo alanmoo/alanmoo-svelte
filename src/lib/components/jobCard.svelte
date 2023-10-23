@@ -1,7 +1,5 @@
 <script lang="ts">
-	import Card from './card.svelte';
-
-	export let company: String, title: String, tenure: String, description: String;
+	export let company: string, title: string, tenure: string, description: string;
 </script>
 
 <a class="card" href="/resume#{company}">

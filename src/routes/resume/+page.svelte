@@ -5,7 +5,7 @@
 	let managementTime = timeSpanFormatter(managementStart, now, true);
 	let industryTime = timeSpanFormatter(industryStart, now, true);
 
-	function timeSpanFormatter(start: Date, end: Date, asFraction: boolean = false) {
+	function timeSpanFormatter(start: Date, end: Date, asFraction = false) {
 		let years = end.getFullYear() - start.getFullYear();
 		let months = end.getMonth() - start.getMonth();
 		if (months < 0) {
