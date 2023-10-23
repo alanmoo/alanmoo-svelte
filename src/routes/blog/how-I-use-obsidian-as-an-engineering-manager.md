@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How I use Obsidian as an Engineering Manager"
+title: 'How I use Obsidian as an Engineering Manager'
 permalink: /blog/obsidian-as-an-EM/
 date: 2023-09-05
 summary: Obsidian is a powerful tool in the "Personal Knowledge Management" category that can act as a second brain. Here's how I use it in my work to keep myself organized.
@@ -9,7 +9,9 @@ summary: Obsidian is a powerful tool in the "Personal Knowledge Management" cate
 There's a lot of context switching required as an engineering manager. I was feeling this intensely as I got into performance review season this year, which is why the [Lead Dev](https://leaddev.com/) mailing list caught my eye when it featured an article about [essential tools for software engineering managers](https://leaddev.com/tech/essential-tools-software-engineering-managers). The article mentioned [Obsidian](https://obsidian.md) and [Roam](https://roamresearch.com/), which successfully nerd-sniped me for a weekend as I explored my options for Personal Knowledge Management (PKM) tools. I ultimately landed on Obsidian, and have made some broad strokes in terms of setup that I'm reasonably happy with.
 
 I've talked with enough people about this that I figure I should share out my approach so that it might help others.
+
 ## Goals
+
 As with any project, it was useful to have a few goals up front about what I wanted out of my note system.
 
 - Keep track of what's going on across two teams that report to me (projects, sentiment on timely topics, etc)
@@ -18,18 +20,22 @@ As with any project, it was useful to have a few goals up front about what I wan
 - Capture my own wins
 
 With these in mind, here’s how I’m using Obsidian for work in September 2023:
+
 ## Plugins
 
 The key plugins I’m using are:
+
 - Dataview
 - Templater
 - QuickAdd
 
 ## Theme
+
 I use the [Things theme](https://github.com/colineckert/obsidian-things), primarily because of the extra checkbox styles that come with it. I'll talk about how I use those below when I cover meeting notes
 
 ## Folders
-After a few wasted hours of organizing *all* my notes into folders, I realized it was generally the wrong approach, and that [maps of content](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6) would be better for my personal notes. That being said, folders can still be a very useful tool for distinct types of notes. I put all work related notes into a top level folder for the company. This is most useful for filtering later on, so that I can exclude it when I’m doing non-work knowledge management. Inside that folder, I’ve got a few more, which I’ll go into detail on later:
+
+After a few wasted hours of organizing _all_ my notes into folders, I realized it was generally the wrong approach, and that [maps of content](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6) would be better for my personal notes. That being said, folders can still be a very useful tool for distinct types of notes. I put all work related notes into a top level folder for the company. This is most useful for filtering later on, so that I can exclude it when I’m doing non-work knowledge management. Inside that folder, I’ve got a few more, which I’ll go into detail on later:
 
 - People
 - Projects
@@ -40,7 +46,7 @@ After a few wasted hours of organizing *all* my notes into folders, I realized i
 
 I’m using a lightly modified version of [Dann Berg’s](https://dannb.org/blog/2022/obsidian-daily-note-template/) daily note template. It’s not perfect for me yet, but it gets the job done. Notice the Templater tags that get run when I create the note.
 
-~~~
+````
 ---
 created: <% tp.file.creation_date() %>
 ---
@@ -75,7 +81,7 @@ List FROM "" WHERE file.cday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.c
 List FROM "" WHERE file.mday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.mtime asc
 
 ```
-~~~
+````
 
 Key things to note: `Meetings` is a header that looks like it's still used for capturing notes during the day, but I've been experimenting with individual notes per meeting lately, so the metadata can be a bit more useful. I try to remember to [embed](https://help.obsidian.md/Linking+notes+and+files/Embedding+files) the notes directly in that section once they're created, like `![[2023-09-05 Sprint Kickoff]]` so I can scan a day's daily note and see everything that happened.
 
@@ -116,11 +122,11 @@ If a task is a piece of critical feedback, once I've delivered it I'll update th
 
 ## People notes
 
-Inside the `people` folder, I've got a note for each person I work with, in any capacity. If they come up in conversation, I create a note for them. The one weird trick I picked up in scouring the web was to start each name with an ampersand,  (`@Alice`). This comes in handy not just for note autocomplete, but also for task filtering.
+Inside the `people` folder, I've got a note for each person I work with, in any capacity. If they come up in conversation, I create a note for them. The one weird trick I picked up in scouring the web was to start each name with an ampersand, (`@Alice`). This comes in handy not just for note autocomplete, but also for task filtering.
 
 Here's the template I use for `people` notes
 
-```
+````
 Role::
 Location::
 
@@ -129,10 +135,12 @@ Location::
 TASK WHERE contains(text, this.file.name) WHERE status = " "
 SORT file.ctime DESC
 \```
-```
+````
 
 I reuse this dataview query in 1:1 notes, but this gives me an ever-available list of topics I need to talk to the current person about for quick reference. In addition, for direct reports I have two more similar dataview queries, changing the status to `w` or `!`, so I can reference back to wins and feedback to see how they've progressed over time.
+
 ## Projects
+
 Inside the project directory, I keep a list of any project that a direct report (or myself) is leading. I've configured the QuickAdd plugin to allow me to create a new project note in the proper directory, and then automatically ask me for a project lead so that if I discover a new project in the middle of a conversation, I can capture it without breaking flow.
 
 ```
@@ -146,11 +154,12 @@ status: In progress, Delivered, Dropped
 
 
 ```
-I know this data exists in far too many spreadsheets, Airtables, and Jira boards, but most of those tools are focused on looking forward, not back. Some light grooming of these help me keep a historical record of what's useful for me to remember later on. Having a specific file for each note also helps me refer to them consistently as they're talked about in various meetings, at which point I can use backlinks to see patterns. 
+
+I know this data exists in far too many spreadsheets, Airtables, and Jira boards, but most of those tools are focused on looking forward, not back. Some light grooming of these help me keep a historical record of what's useful for me to remember later on. Having a specific file for each note also helps me refer to them consistently as they're talked about in various meetings, at which point I can use backlinks to see patterns.
 
 I've also got a top level `Project List` file that's useful for quick reference (and grooming my data):
 
-```
+````
 # In progress
 ```dataview
 table lead
@@ -160,15 +169,17 @@ SORT lead asc
 
 # Completed
 ```dataview
-table lead 
+table lead
 FROM "Policygenius/Projects" WHERE status = "Delivered"
 SORT file.ctime asc
 \```
-```
+````
 
 ## 1:1s
-I use QuickAdd to create 1:1 notes as well, leveraging the loosely structured data I've described above to give me a quick refresher of what's worth talking about in a 1:1. The biggest challenge with this is that I like having a shared agenda in 1:1s, so I still try to have a running  Google doc or Lattice meeting with people which I paste into and copy out of before and after the meeting.
-```
+
+I use QuickAdd to create 1:1 notes as well, leveraging the loosely structured data I've described above to give me a quick refresher of what's worth talking about in a 1:1. The biggest challenge with this is that I like having a shared agenda in 1:1s, so I still try to have a running Google doc or Lattice meeting with people which I paste into and copy out of before and after the meeting.
+
+````
 ---
 attendees: <%* const dv = app.plugins.plugins.dataview.api; const func = (item) => `${item.file.name}`; const person = (await tp.system.suggester(func, dv.pages('"Policygenius/People"'), false, "Project lead")).file.name; tR += `"[[${person}]]"` %>
 ---
@@ -187,19 +198,18 @@ TASK WHERE contains(outlinks, this.attendees) WHERE status = " "
 SORT file.ctime DESC
 \```
 
-```
-
+````
 
 ## Overview Note
 
 Finally, I've got an overview note that I reference every day to make sure I'm not just throwing tasks into the abyss and that I'm working toward my high-level goals. It's ever-evolving and not entirely sharable, but the outline looks like this:
 
-```
+````
 [[Project List]]
 
 ## Open (async) tasks
 ```dataview
-TASK From "Policygenius" or "daily" 
+TASK From "Policygenius" or "daily"
 WHERE status = " " AND !contains(text, "@") SORT file.mtime asc
 \```
 
@@ -222,7 +232,6 @@ List from "Policygenius/Projects" WHERE lead = [[@Alan]]
 
 ## My career
 [[Policygenius Brag sheet]]
-```
-
+````
 
 And that's everything! Well, until I inevitably make a change tomorrow. The thing I love about Obsidian is that it's a system that I can make work for me without having to fight it much. If you've got questions or take anything here and make improvements for your own workflow, let me know on [Mastodon](https://xoxo.zone/@alanmoo)!

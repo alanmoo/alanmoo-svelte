@@ -8,7 +8,7 @@ tags: bugfix
 
 While working on this site, I noticed a strange bug on the homepage. The page layout would shift slightly when I'd hover on a card component (but not return unless the page is refreshed), as shown in the following video:
 
-![A screen capture demonstrating the layout shifting as I hover over a link](/Svelte-shift-on-hover.gif)
+<img alt="Screen capture demonstrating the layout shifting as I hover over a link" src="/Svelte-shift-on-hover.gif" width="711" height="302"/>
 
 I explored a bit, disabling all the card component CSS I could find, but it would still happen. Digging into the browser dev tools, I noticed that the `line-height` was changing for the `p` elements inside the cards. When I looked at where the new line height was coming from, it turned out it was from a style inside the _blog post_ component, which is the target of the card link. It turned out I had the following style in the blog post component, a result of designing the site as I built it while learning Svelte.
 

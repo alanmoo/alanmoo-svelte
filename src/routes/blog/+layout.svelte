@@ -1,28 +1,26 @@
 <div class="blog">
-  <slot></slot>
+	<slot />
 </div>
 
 <style>
-  .blog {
-    max-width: 70ch;
-    margin: 0 auto;
-  }
-  
-  :global(pre) {
-    background: var(--theme-dark);
-    color: var(--theme-light);
-    max-width: 100vw;
-    border: 1px solid var(--theme-brown);
-    padding: 1em;
-    white-space: pre-wrap;
-  }
+	.blog {
+		max-width: 70ch;
+		margin: 0 auto;
+	}
 
-  :global(code){
-    color: var(--theme-light);
-    background: var(--theme-dark);
-    white-space: pre-wrap;
-    padding: 0 0.5ch;
-  }
+	:global(pre) {
+		background: var(--theme-dark);
+		color: var(--theme-light);
+		max-width: 100vw;
+		border: 1px solid var(--theme-brown);
+		padding: 1em;
+		white-space: pre-wrap;
+	}
 
-
+	:global(code) {
+		color: var(--theme-light);
+		background: var(--theme-dark);
+		white-space: pre-wrap;
+		padding: 0 0.5ch;
+	}
 </style>

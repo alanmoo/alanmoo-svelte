@@ -32,12 +32,15 @@
 		<!-- .name_title -->
 		<span class="contact_info">
 			<a class="email" href="mailto:hello@alanmooiman.com?subject=👋 Nice résumé"
-			>hello@alanmooiman.com</a
+				>hello@alanmooiman.com</a
 			>
 		</span>
-		<p>People focused engineering leader focused on empowering team members to grow their career and craft while delivering timely value for the business</p>
+		<p>
+			People focused engineering leader focused on empowering team members to grow their career and
+			craft while delivering timely value for the business
+		</p>
 	</header>
-		<!-- .contact_info -->
+	<!-- .contact_info -->
 	<div class="content">
 		<!-- <h3>Objective</h3>
     <p>To lead an engaged, productive, communicative team that outputs high quality projects and works together to help one another improve their skills while building the future.</p> -->
@@ -67,7 +70,13 @@
 				<span class="role_dates">August 2023-October 2023</span>
 				<p>
 					Following an acquisition of Policygenius by Zinnia, I was promoted to Senior Engineering
-					Manager as part of the Policygenius performance review process and tapped to lead a team integrating engineers from both organizations and help bring best practices from each to the combined engineering organization. I laid the groundwork by shaping team processes, building alignment with stakeholders, and widening bottlenecks in the development process where possible. Once the team was established, I reflected on my own career and personal needs and recognized the time was right to take a few months off before searching for my next role.
+					Manager as part of the Policygenius performance review process and tapped to lead a team
+					integrating engineers from both organizations and help bring best practices from each to
+					the combined engineering organization. I laid the groundwork by shaping team processes,
+					building alignment with stakeholders, and widening bottlenecks in the development process
+					where possible. Once the team was established, I reflected on my own career and personal
+					needs and recognized the time was right to take a few months off before searching for my
+					next role.
 				</p>
 				<!-- <p>
 					The most significant opportunities ahead of me involve leading the new team through the
@@ -140,7 +149,9 @@
 				</p>
 			</div>
 			<div class="resume_item">
-				<h3 class="organization" id="SquareFoot"><a href="https://squarefoot.com">SquareFoot</a></h3>
+				<h3 class="organization" id="SquareFoot">
+					<a href="https://squarefoot.com">SquareFoot</a>
+				</h3>
 				<h4 class="job_title">Web Engineering Manager</h4>
 				<span class="role_dates">February 2020 - September 2021</span>
 				<p>
@@ -197,7 +208,9 @@
       </p> -->
 			</div>
 			<div class="resume_item">
-				<h3 class="organization" id="E*Trade Financial"><a href="https://etrade.com">E*TRADE Financial</a></h3>
+				<h3 class="organization" id="E*Trade Financial">
+					<a href="https://etrade.com">E*TRADE Financial</a>
+				</h3>
 				<h4 class="job_title">Front End Prototype Developer</h4>
 				<span class="organization">October 2013 - August 2015</span>
 				<!-- <p>
@@ -447,8 +460,8 @@
 		position: sticky;
 		top: 0;
 		background-color: var(--background-color);
-		padding: .5em 0;
-		margin: .5em 0;
+		padding: 0.5em 0;
+		margin: 0.5em 0;
 	}
 
 	section > h2 {

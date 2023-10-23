@@ -5,10 +5,10 @@
 </script>
 
 <a class="card" href="/resume#{company}">
-		<h3 class="company">{company}</h3>
-		<div class="job-title">{title}</div>
-		<div class="tenure">{tenure}</div>
-		<div class="description">{description}</div>
+	<h3 class="company">{company}</h3>
+	<div class="job-title">{title}</div>
+	<div class="tenure">{tenure}</div>
+	<div class="description">{description}</div>
 </a>
 
 <style>

@@ -51,12 +51,12 @@
 	<h2>Projects</h2>
 	<div class="card-wrapper">
 		<a class="card" href="/projects/vestaweather">
-				<h3>Vestaweather</h3>
-				<p>A weather application for Vestaboard</p>
+			<h3>Vestaweather</h3>
+			<p>A weather application for Vestaboard</p>
 		</a>
 		<a class="card" href="/projects/sparkle-moose-lounge">
-				<h3>Sparkle Moose Lounge</h3>
-				<p>A home design project with some interesting constraints</p>
+			<h3>Sparkle Moose Lounge</h3>
+			<p>A home design project with some interesting constraints</p>
 		</a>
 	</div>
 </section>
@@ -76,13 +76,13 @@
 		gap: 2rem;
 		flex-wrap: wrap;
 	}
-  .card-wrapper > * {
-    flex: 1;
-  }
+	.card-wrapper > * {
+		flex: 1;
+	}
 
-  a p {
-    text-decoration: none;
-  }
+	a p {
+		text-decoration: none;
+	}
 
 	.intro {
 		max-width: 70ch;
