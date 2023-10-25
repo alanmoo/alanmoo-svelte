@@ -27,7 +27,7 @@
 			>
 		</li>
 		<li>
-			<a href="https://github.com/alanmoo" aria-label="Github profile"
+			<a href="https://github.com/alanmoo" rel="me" aria-label="Github profile"
 				><svg
 					width="2em"
 					height="2em"
