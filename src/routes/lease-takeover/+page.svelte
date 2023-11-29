@@ -3,6 +3,9 @@
 	console.log(images);
 </script>
 
+<svelte:head>
+	<title>Rent stabilized lease takeover!</title>
+</svelte:head>
 <div class="images">
 	<img src="/lease-takeover/floorplan.jpeg" alt="Floorplan" width="1200" height="751" />
 	<img src="/lease-takeover/living.jpeg" alt="Living Room" />
