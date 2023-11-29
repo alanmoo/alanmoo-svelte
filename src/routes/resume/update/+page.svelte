@@ -1,0 +1,458 @@
+<script lang="ts">
+	let managementStart = new Date('May 8, 2017');
+	let industryStart = new Date('February 13, 2012');
+	let now = new Date();
+	let managementTime = timeSpanFormatter(managementStart, now, true);
+	let industryTime = timeSpanFormatter(industryStart, now, true);
+
+	function timeSpanFormatter(start: Date, end: Date, asFraction = false) {
+		let years = end.getFullYear() - start.getFullYear();
+		let months = end.getMonth() - start.getMonth();
+		if (months < 0) {
+			months += 12;
+		}
+
+		if (asFraction) {
+			return `${years}${months >= 6 ? '.5' : '+'} years`;
+		} else {
+			return `${years} years, ${months} months`;
+		}
+	}
+</script>
+
+<div class="resume">
+	<div class="show-print">
+		<small
+			>Printed/PDF'ed from <a href="http://alanmooiman.com/resume">alanmooiman.com/resume</a></small
+		>
+	</div>
+	<header>
+		<h1>Alan Mooiman</h1>
+		<h2 class="title">Senior Engineering Manager</h2>
+		<!-- .name_title -->
+		<span class="contact_info">
+			<a class="email" href="mailto:hello@alanmooiman.com?subject=👋 Nice résumé"
+				>hello@alanmooiman.com</a
+			>
+		</span>
+		<p>
+			Product and user-experience-focused engineering leader with a passion for performance and
+			accessibility
+		</p>
+	</header>
+	<!-- .contact_info -->
+	<div class="content">
+		<!-- <h3>Objective</h3>
+    <p>To lead an engaged, productive, communicative team that outputs high quality projects and works together to help one another improve their skills while building the future.</p> -->
+		<section>
+			<h2>Skills/Experience</h2>
+			<ul class="skills">
+				<li>
+					<span id="managementTime">{managementTime}</span> of engineering leadership
+				</li>
+				<li><span id="industryTime">{industryTime}</span> of industry experience</li>
+				<li>Focused on solving problems for the business over simply addressing symptoms</li>
+				<li>Vision crafting, OKR setting, building alignment</li>
+				<li>
+					AWS, BuildKite, CI/CD, Contentful, Core Web Vitals, CSS, Cypress, Datadog, Django, Docker,
+					Flask, Gatsby, GraphQL, Jest, NodeJS, Next.JS, Python, React, Storybook, Svelte, Wagtail,
+					Webpack, Vercel
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Work Experience</h2>
+			<div class="resume_item">
+				<h3 class="organization" id="Policygenius">
+					<a href="https://www.policygenius.com">Policygenius</a> /
+					<a href="https://zinnia.com">Zinnia</a>
+				</h3>
+				<h4 class="job_title">Senior Engineering Manager</h4>
+				<span class="role_dates">September 2021-October 2023</span>
+				<div>Company size: 700->2500 post acquisition by Zinnia</div>
+				<div>
+					Teams: Content/lead generation (4 engineers), top of the funnel (5 engineers), component
+					library (cross-team initiative)
+				</div>
+				<h5>Impact</h5>
+				<ul>
+					<li>Spearheaded performance improvements on the content site</li>
+					<li>Google indexes new articles in one day rather than three</li>
+					<li>Lighthouse scores moved from 40's to 80's</li>
+					<li>Total Blocking Time on the content site reduced by 50%</li>
+					<li>
+						Demonstrated the importance of improvement across applications for SEO, leading to an
+						engineering organization culture shift toward creating performance-oriented OKRs
+					</li>
+					<li>Coached Senior SWE into EM role</li>
+					<li>
+						Course corrected two under-performers, one of whom was later promoted before accepting a
+						MAANG offer
+					</li>
+					<li>
+						Identified growth opportunities for two other engineers who each achieved two promotions
+						over two years
+					</li>
+					<li>
+						Established process improvements for a fledgling team in the post-acquisition months
+					</li>
+				</ul>
+			</div>
+			<div class="resume_item">
+				<h3 class="organization" id="SquareFoot">
+					<a href="https://squarefoot.com">SquareFoot</a>
+				</h3>
+				<h4 class="job_title">Web Engineering Manager</h4>
+				<span class="role_dates">February 2020 - September 2021</span>
+				<div>Company size: 80->30 (See also: commercial real estate in 2020)</div>
+				<div>Team: Frontend product (4 engineers)</div>
+				<h5>Impact</h5>
+				<ul>
+					<li>
+						Drove performance improvements such that the company's excellent SEO didn't take a hit
+						when Core Web Vitals became a factor in June 2021
+					</li>
+				</ul>
+			</div>
+			<div class="resume_item">
+				<h3 class="organization" id="Mozilla Foundation">
+					<a href="https://foundation.mozilla.org">Mozilla Foundation</a>
+				</h3>
+				<h4 class="job_title">Engineering Manager</h4>
+				<span class="role_dates">May 2017 - January 2020</span>
+				<div>Company size: 100, 1000 including Mozilla Corporation</div>
+				<div>Teams: Product (5 engineers), Platform (2 engineers)</div>
+				<h5>Impact</h5>
+				<ul>
+					<li>
+						Regularly wore a product hat, listening to the needs of stakeholders to determine what
+						problems engineering could solve ourselves
+					</li>
+					<li>
+						Identified an opportunity to change the technical direction of the then-nascent Mozilla
+						Foundation site to better support organizational needs and led migration to Wagtail,
+						which supported the org well for 5 years and counting
+					</li>
+					<li>
+						Led the team's development of privacynotincluded.org, which has gone on to become a
+						recurring conversation point on the internet and forced companies to respond publicly to
+						its research
+					</li>
+					<li>
+						Facilitated relationships between internal support and external contractors hired to
+						rebuild the donation platform, which brings in millions per year. Successfully launched
+						and held up reliably during its first December fundraising push.
+					</li>
+				</ul>
+				<h4 class="job_title">Front End Developer</h4>
+				<span class="role_dates">September 2015 - May 2017</span>
+				<!-- <p>
+        Upon joining the team, I started working on the existing Webmaker Android app, a web-based app in a native wrapper that existed to empower users to create content on the web, instead of just consuming it. I also helped to create a UI framework for use across our web properties, and built out/enhanced a number of other sites like science.mozilla.org, foundation.mozilla.org, and the initial back-end work for mozillapulse.org as I learned Django.
+      </p> -->
+			</div>
+			<div class="resume_item">
+				<h3 class="organization" id="E*Trade Financial">
+					<a href="https://etrade.com">E*TRADE Financial</a>
+				</h3>
+				<h4 class="job_title">Front End Prototype Developer</h4>
+				<span class="organization">October 2013 - August 2015</span>
+				<!-- <p>
+        In this role I:
+        <ul>
+          <li>Developed prototypes for the customer web app based on static comps</li>
+          <li>Experimented with new web technologies to implement within the application</li>
+          <li>Coordinated with the development team in California so that our prototypes were useful to them during production</li>
+          <li>Developed a framework of various components to be integrated into a style guide for agencies and developers to reference.</li>
+          <li>Collaborated with the iOS development and design teams to quickly integrate new technologies</li>
+        </ul>
+      </p> -->
+			</div>
+			<div class="resume_item hide-print">
+				<h3 class="organization">
+					<a href="https://weill.cornell.edu/">Weill Cornell Medical College</a>
+				</h3>
+				<h4 class="job_title">UI Designer/Developer</h4>
+				<span class="role_dates">February 2012 - October 2013</span>
+				<ul>
+					<!-- <li>Develop responsive Drupal theme for new base distribution, including a new responsive navigation pattern</li> -->
+					<!-- <li>Add front end functionality to existing internal applications</li>
+        <li>Played a strong role in the design process with guidance from art director</li>
+        <li>Implemented designs by others in code to a high level of detail</li>
+        <!-- <li>Skin various internal and 3rd party web applications</li> -->
+					<!-- <li>Develop coding standards for the web design team</li>
+        <li>Wrote CSS with support back to IE7 and Firefox 3.6</li>
+        <!-- <li>Comment code so that future developers understand it</li> -->
+				</ul>
+			</div>
+			<!-- <div class="resume_item">
+      <h3 class="job_title">Desktop Support Assistant</h3>
+      <span class="organization">Weill Cornell Medical College - <span class="location">New York City</span></span>
+      <span class="organization">March 2011-February 2012</span>
+      <ul>
+        <li>Imaged new computers, added device information to asset management system</li>
+        <li>Balanced workload of assigned connect cases and took support cases according to ability</li>
+        <li>Documented all work performed</li>
+      </ul>
+    </div>
+    <div class="resume_item">
+      <h3 class="job_title">Specialist/Creative</h3>
+      <span class="organization">Apple - <span class="location">Edison, NJ</span></span>
+      <span class="organization">2006-2011</span>
+      <ul>
+        <li>Trained customers on a range of Apple hardware and software, from basic OS to Final Cut Pro and Motion</li>
+        <li>Troubleshot, diagnosed, and repaired customer iPods and iPhones at Genius Bar</li>
+      </ul>
+    </div> -->
+			<!-- 			<div class="resume_item">
+      <h3 class="job_title">Design Intern</h3>
+      <span class="organization">Longtail Video - <span class="location">New York City</span></span>
+      <span class="organization">Summer 2009</span>
+      <ul>
+        <li>Unified CSS for a set of web pages to reduce amount of files needed</li>
+        <li>Hand coded HTML e-mail blasts</li>
+      </ul>
+    </div> -->
+		</section>
+		<!--
+		<section>
+			<h2>Significant Projects</h2>
+			<div class="significant-project">
+				<h3>Policygenius Content Site Improvements</h3>
+				<p>
+					Upon joining Policygenius to lead the Content Engineering team, I realized that the most
+					clear element of my team's contributions toward business goals that fell entirely under
+					our control was visitors' experience as measured via Core Web Vitals. These are known to
+					have an impact on SEO, so I began coach my team in their regular product-driven work to
+					improve performance wherever possible. Over the course of a year, we:
+				</p>
+				<ul>
+					<li>
+						Created a vision for the team going forward, from which we built our technical plan
+					</li>
+					<li>
+						Started collecting data on site performance with and without 3rd party scripts to
+						monitor for changes under our control
+					</li>
+					<li>
+						Migrated to Gatsby Cloud so that we could have efficient single-page content updates
+						rather than a homespun approach that caused React to thrash on render and slow down site
+						indexing
+					</li>
+					<li>
+						Reduced TBT by over 50% with the continued migration of CSS-in-JS components to use CSS
+						Modules
+					</li>
+					<li>
+						Began improving performance of applications beyond the content site after the
+						realization that non-indexed pages still have an influence on SEO
+					</li>
+				</ul>
+			</div>
+			<div class="significant-project">
+				<h3>SquareFoot Next.JS migration</h3>
+				<ul>
+					<li>
+						Recognized an opportunity to improve web performance, increase developer effectiveness,
+						and wrangle technical debt by moving from bespoke webpack configuration to standard
+						Next.JS config
+					</li>
+					<li>
+						Led the team in improving lighthouse scores from 20's to 70's, right as Google Page
+						Experience search algorithm update went live
+					</li>
+					<li>
+						Improved team's ability to work with a product manager on another continent via review
+						applications
+					</li>
+				</ul>
+			</div>
+			<div class="significant_project">
+				<h3>Mozilla Donations platform</h3>
+				<ul>
+					<li>
+						Facilitated relationship with external contractors hired to rebuild our donations
+						platform, which brings in millions of dollars per year.
+					</li>
+					<li>
+						Acted as lead internal decision-maker for technology and implementation related details.
+					</li>
+					<li>
+						Leveraged organizational and technological familiarity to ensure donor pipeline is
+						optimized and collecting the right data to analyze for future improvement, while
+						adhering to mission-driven privacy practices.
+					</li>
+					<li>Coordinated with CRM lead to ensure data flows as expected</li>
+				</ul>
+			</div>
+			<div class="significant_project">
+				<h3>Mozilla Foundation site</h3>
+				<ul>
+					<li>
+						Led a team of engineers to migrate <a href="https://foundation.mozilla.org"
+							>foundation.mozilla.org</a
+						>
+						from a partially static, partially CMS based site to one fully generated by a
+						<a href="https://wagtail.io">Wagtail</a> instance
+					</li>
+					<li>
+						Led team to significantly reduce challenges in reviewing/testing changes, improve
+						deployment process, and modularize front-end
+					</li>
+					<li>
+						Listened to the pulse of the organization to understand and direct feature development,
+						meeting the needs of multiple stakeholders simultaneously
+					</li>
+					<li>
+						Parlayed successful implementation into utilization of the platform for rapid build and
+						deployment of <a href="https://mozillafestival.org">mozillafestival.org</a>
+					</li>
+				</ul>
+			</div>
+			<div class="significant_project hide-print">
+				<h3>E*Trade Portfolios Prototype</h3>
+				<ul>
+					<li>
+						Leveraged MongoDB, Express, NodeJS, and AngularJS to build a highly functional prototype
+						for the new heart of the E*TRADE web platform
+					</li>
+					<li>
+						Worked in conjunction with teammate building trade ticket to create fully functional
+						experience for user testing
+					</li>
+					<li>
+						Used Express and Node to design and RESTful API that could be utilized by AngularJS
+						client side framework
+					</li>
+					<li>
+						Construct back end that integrates data from MongoDB and E*TRADE APIs to generate API
+						responses
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="hide-print">
+			<h3>Early Experience</h3>
+			<p>
+				<strong>Weill Cornell Medical College</strong>
+				<time datetime="2011-03-28T09:00">2011</time><span class="range-indicator">-</span><time
+					datetime="2012-02-12T17:00">2012</time
+				> Desktop Support Tech
+			</p>
+			<p>
+				<strong>Apple Retail</strong> <time datetime="2006-05-15T09:00">2006</time><span
+					class="range-indicator">-</span
+				><time datetime="2011-03-25T17:00">2011</time> Specialist, Visual Merchandiser, Creative
+			</p>
+		</section>
+		<section class="hide-print">
+			<h2>Education</h2>
+			<div class="resume_item">
+				<div class="organization">
+					<h3>Ramapo College of New Jersey</h3>
+					<span class="location">Mahwah, NJ</span>
+				</div>
+				<ul>
+					<li>
+						Communications Major with a concentration in Design and Interactive Media, summa cum
+						laude, May 2010
+					</li>
+					<li>Minor in Computer Science</li>
+				</ul>
+			</div>
+			<div class="resume_item hide-print">
+				<div class="organization">
+					<h3>Middlesex County Academy for Science, Mathematics and Engineering Technology</h3>
+					<span class="location">Edison, NJ</span>
+				</div>
+				<ul>
+					<li>4 years of Electrical and Computer Engineering</li>
+					<li>Graduated Salutatorian</li>
+				</ul>
+			</div>
+		</section>
+
+		<h2>References</h2>
+		<p>Available upon request</p>
+	-->
+		<!-- <ul>
+      <li><a href="https://www.linkedin.com/in/vickeryj/">Joshua Vickery</a>, Principal Engineer, Namely (formerly CTO, SquareFoot)</li>
+      <li><a href="https://www.linkedin.com/in/jessevondoom/">Jesse VonDoom</a>, Head of Product, Glitch</li>
+      <li><a href="https://www.linkedin.com/in/simonwex/">Simon Wex</a>, Former Director of Software, Mozilla Foundation</li>
+      <li><a href="https://www.linkedin.com/in/arnaud-jammaers-74a547/">Arnaud Jammaers</a>, Creative Director, E*Trade Financial (now at Mastercard)</li>
+      <li><a href="https://www.linkedin.com/in/remydwd/">Dan Dickinson</a>, Associate Director of Web Communications, Weill Cornell Medical College</li>
+      <li>Contact information available upon <a href="mailto:hello@alanmooiman.com?subject=References?">request</a></li>
+    </ul> -->
+	</div>
+	<!-- .content -->
+</div>
+
+<style>
+	.resume {
+		margin: 0 auto;
+		max-width: 70ch;
+	}
+	.show-print {
+		display: none;
+	}
+	.job_title {
+		display: inline;
+		font-size: 20px;
+	}
+	.job_title::after {
+		content: ',';
+	}
+	.organization {
+		position: sticky;
+		top: 0;
+		background-color: var(--background-color);
+		padding: 0.5em 0;
+		margin: 0.5em 0;
+	}
+
+	section > h2 {
+		margin-bottom: 0;
+	}
+	h5 {
+		font-size: 1em;
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+
+	@media print {
+		:root {
+			font-size: 12px;
+		}
+		.resume {
+			max-width: initial;
+		}
+		h1 {
+			font-size: 1.5em;
+		}
+
+		h2 {
+			font-size: 1.33em;
+		}
+		.title {
+			display: inline-block;
+			margin: 0 1em 0 0;
+		}
+
+		h3 {
+			font-size: 1.25em;
+		}
+
+		.resume_item,
+		.significant_project {
+			break-inside: avoid-page;
+		}
+
+		.hide-print {
+			display: none;
+		}
+
+		.show-print {
+			display: block;
+			float: right;
+		}
+	}
+</style>
