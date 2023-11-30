@@ -27,30 +27,27 @@
 		>
 	</div>
 	<header>
-		<h1>Alan Mooiman</h1>
-		<h2 class="title">Senior Engineering Manager</h2>
-		<!-- .name_title -->
+		<h1>Alan Mooiman, Engineering Leader in NYC</h1>
 		<span class="contact_info">
 			<a class="email" href="mailto:hello@alanmooiman.com?subject=👋 Nice résumé"
 				>hello@alanmooiman.com</a
 			>
 		</span>
 		<p>
-			Product and user-experience-focused engineering leader with a passion for performance and
-			accessibility
+			Product and user-experience-focused front-end dev turned engineering leader with a passion for
+			performance and accessibility. Ideal role: hybrid in NYC
 		</p>
 	</header>
-	<!-- .contact_info -->
 	<div class="content">
-		<!-- <h3>Objective</h3>
-    <p>To lead an engaged, productive, communicative team that outputs high quality projects and works together to help one another improve their skills while building the future.</p> -->
 		<section>
 			<ul class="skills">
 				<li>
 					<span id="managementTime">{managementTime}</span> of engineering leadership
 				</li>
 				<li><span id="industryTime">{industryTime}</span> of industry experience</li>
-				<li>Focused on leading teams to solve problems for the business via generative culture</li>
+				<li>
+					Focused on leading teams to solve problems for the business via a generative culture
+				</li>
 				<li>Vision crafting, OKR setting, building alignment</li>
 				<li>
 					AWS, BuildKite, CI/CD, Contentful, Core Web Vitals, CSS, Cypress, Datadog, Django, Docker,
@@ -61,12 +58,16 @@
 		</section>
 		<section>
 			<h2>Work Experience</h2>
-			<div class="resume_item">
-				<h3 class="organization" id="Policygenius">
-					<a href="https://www.policygenius.com">Policygenius</a>,
-					<span class="job_title">Senior Engineering Manager</span>
-				</h3>
-				<span class="role_dates">September 2021-October 2023</span>
+			<details open class="resume_item">
+				<summary>
+					<div class="summary">
+						<h3 class="organization" id="Policygenius">
+							<a href="https://www.policygenius.com">Policygenius</a>,
+							<span class="job_title">Senior Engineering Manager</span>
+						</h3>
+						<span class="role_dates">September 2021-October 2023</span>
+					</div>
+				</summary>
 				<div class="company_size">
 					Series D > E > Acquired by <a href="https://zinnia.com">Zinnia</a>
 				</div>
@@ -105,16 +106,20 @@
 						Established process improvements for a fledgling team in the post-acquisition months
 					</li>
 				</ul>
-			</div>
-			<div class="resume_item">
-				<h3 class="organization" id="SquareFoot">
-					<a href="https://squarefoot.com">SquareFoot</a>
-					<span class="job_title">Web Engineering Manager</span>
-				</h3>
-				<span class="role_dates">February 2020 - September 2021</span>
+			</details>
+			<details class="resume_item">
+				<summary>
+					<div class="summary">
+						<h3 class="organization" id="SquareFoot">
+							<a href="https://squarefoot.com">SquareFoot</a>,
+							<span class="job_title">Web Engineering Manager</span>
+						</h3>
+						<span class="role_dates">February 2020 - September 2021</span>
+					</div>
+				</summary>
 				<div class="company_size">Series B</div>
 				<div class="team_size">
-					<h5>Team:</h5>
+					<h5>Team</h5>
 					Frontend product (4 engineers)
 				</div>
 				<h5>Impact</h5>
@@ -124,13 +129,17 @@
 						Core Web Vitals became a factor in June 2021
 					</li>
 				</ul>
-			</div>
-			<div class="resume_item">
-				<h3 class="organization" id="Mozilla Foundation">
-					<a href="https://foundation.mozilla.org">Mozilla Foundation</a>
-					<span class="job_title">Engineering Manager</span>
-				</h3>
-				<span class="role_dates">May 2017 - January 2020</span>
+			</details>
+			<details open class="resume_item">
+				<summary>
+					<div class="summary">
+						<h3 class="organization" id="Mozilla Foundation">
+							<a href="https://foundation.mozilla.org">Mozilla Foundation</a>,
+							<span class="job_title">Engineering Manager</span>
+						</h3>
+						<span class="role_dates">May 2017 - January 2020</span>
+					</div>
+				</summary>
 				<div class="team_size">
 					<h5>Teams</h5>
 					<ul>
@@ -145,8 +154,8 @@
 						problems engineering could solve ourselves
 					</li>
 					<li>
-						Led a change in technical direction of the organization's CMS that has lasted well for
-						5+ years since
+						Led a change in the technical direction of the organization's CMS that has lasted well
+						for 5+ years since
 					</li>
 					<li>
 						Led the team's development of <a href="https://privacynotincluded.org" target="_blank"
@@ -160,36 +169,62 @@
 						and held up reliably during its first December fundraising push.
 					</li>
 				</ul>
-				<h3 class="job_title">Front End Developer</h3>
-				<span class="role_dates">September 2015 - May 2017</span>
-				<!-- <p>
-        Upon joining the team, I started working on the existing Webmaker Android app, a web-based app in a native wrapper that existed to empower users to create content on the web, instead of just consuming it. I also helped to create a UI framework for use across our web properties, and built out/enhanced a number of other sites like science.mozilla.org, foundation.mozilla.org, and the initial back-end work for mozillapulse.org as I learned Django.
-      </p> -->
-			</div>
-			<div class="resume_item">
-				<h3 class="organization" id="E*Trade Financial">
-					<a href="https://etrade.com">E*TRADE Financial</a>
-					<span class="job_title">Front End Prototype Developer</span>
-				</h3>
-				<span class="role_dates">October 2013 - August 2015</span>
-				<!-- <p>
-        In this role I:
-        <ul>
-          <li>Developed prototypes for the customer web app based on static comps</li>
-          <li>Experimented with new web technologies to implement within the application</li>
-          <li>Coordinated with the development team in California so that our prototypes were useful to them during production</li>
-          <li>Developed a framework of various components to be integrated into a style guide for agencies and developers to reference.</li>
-          <li>Collaborated with the iOS development and design teams to quickly integrate new technologies</li>
-        </ul>
-      </p> -->
-			</div>
-			<div class="resume_item hide-print">
-				<h3 class="organization">
-					<a href="https://weill.cornell.edu/">Weill Cornell Medical College</a>
-					<span class="job_title">UI Designer/Developer</span>
-				</h3>
-				<span class="role_dates">February 2012 - October 2013</span>
-			</div>
+			</details>
+			<details>
+				<summary>
+					<div class="summary">
+						<h3 class="organization">
+							<a href="https://foundation.mozilla.org">Mozilla Foundation</a>,
+							<span class="job_title">Front End Developer</span>
+						</h3>
+						<span class="role_dates">September 2015 - May 2017</span>
+					</div>
+				</summary>
+				<p>
+					Upon joining the team, I started working on the existing Webmaker Android app, a web-based
+					app in a native wrapper that existed to empower users to create content on the web instead
+					of just consuming it. I also helped to create a UI framework for use across our web
+					properties and built out/enhanced a number of other sites like science.mozilla.org,
+					foundation.mozilla.org, and the initial back-end work for mozillapulse.org as I learned
+					Django.
+				</p>
+			</details>
+			<details>
+				<summary>
+					<div class="summary">
+						<h3 class="organization" id="E*Trade Financial">
+							<a href="https://etrade.com">E*TRADE Financial</a>,
+							<span class="job_title">Front End Prototype Developer</span>
+						</h3>
+						<span class="role_dates">October 2013 - August 2015</span>
+					</div>
+				</summary>
+				<ul>
+					<li>Developed prototypes for the customer web app based on static comps</li>
+					<li>Experimented with new web technologies to implement within the application</li>
+					<li>
+						Coordinated with the development team in California so that our prototypes were helpful
+						to them during production
+					</li>
+					<li>
+						Developed a framework of various components to be integrated into a style guide for
+						agencies and developers to reference.
+					</li>
+					<li>
+						Collaborated with the iOS development and design teams to quickly integrate new
+						technologies
+					</li>
+				</ul>
+			</details>
+			<summary>
+				<div class="summary">
+					<h3 class="organization">
+						<a href="https://weill.cornell.edu/">Weill Cornell Medical College</a>,
+						<span class="job_title">UI Designer/Developer</span>
+					</h3>
+					<span class="role_dates">February 2012 - October 2013</span>
+				</div>
+			</summary>
 			<!-- <div class="resume_item">
       <h3 class="job_title">Desktop Support Assistant</h3>
       <span class="organization">Weill Cornell Medical College - <span class="location">New York City</span></span>
@@ -402,7 +437,15 @@
 	}
 	.job_title {
 		display: inline;
-		font-size: 20px;
+	}
+
+	.summary {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+	summary {
+		list-style-position: outside;
 	}
 
 	.organization {
@@ -410,14 +453,7 @@
 		top: 0;
 		background-color: var(--background-color);
 		padding: 0.5em 0;
-		margin: 0.5em 0;
-		/* float: left; */
-	}
-	.role_dates {
-		/* float: right; */
-	}
-	.team_size {
-		/* clear: both; */
+		margin: 0.5em 0 0;
 	}
 
 	section > h2 {
@@ -426,7 +462,7 @@
 	h5 {
 		font-size: 1em;
 		font-weight: bold;
-		margin-bottom: 0;
+		margin: 0.5em 0 0;
 	}
 	ul {
 		margin-top: 0em;
@@ -453,15 +489,6 @@
 
 		h3 {
 			font-size: 1.25em;
-		}
-
-		.resume_item,
-		.significant_project {
-			break-inside: avoid-page;
-		}
-
-		.hide-print {
-			display: none;
 		}
 
 		.show-print {
