@@ -439,10 +439,15 @@
 		display: inline;
 	}
 
+	.role_dates {
+		margin: 0 0 0.5em;
+	}
+
 	.summary {
 		display: flex;
 		justify-content: space-between;
 		align-items: baseline;
+		flex-wrap: wrap;
 	}
 	summary {
 		list-style-position: outside;
@@ -453,7 +458,7 @@
 		top: 0;
 		background-color: var(--background-color);
 		padding: 0.5em 0;
-		margin: 0.5em 0 0;
+		margin: 0.5em 0.5em 0 0;
 	}
 
 	section > h2 {
@@ -462,10 +467,10 @@
 	h5 {
 		font-size: 1em;
 		font-weight: bold;
-		margin: 0.5em 0 0;
+		margin: 0.5em 0;
 	}
 	ul {
-		margin-top: 0em;
+		margin-top: 0.5em;
 	}
 
 	@media print {
