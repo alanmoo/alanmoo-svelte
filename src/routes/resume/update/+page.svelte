@@ -45,13 +45,12 @@
 		<!-- <h3>Objective</h3>
     <p>To lead an engaged, productive, communicative team that outputs high quality projects and works together to help one another improve their skills while building the future.</p> -->
 		<section>
-			<h2>Skills/Experience</h2>
 			<ul class="skills">
 				<li>
 					<span id="managementTime">{managementTime}</span> of engineering leadership
 				</li>
 				<li><span id="industryTime">{industryTime}</span> of industry experience</li>
-				<li>Focused on solving problems for the business over simply addressing symptoms</li>
+				<li>Focused on leading teams to solve problems for the business via generative culture</li>
 				<li>Vision crafting, OKR setting, building alignment</li>
 				<li>
 					AWS, BuildKite, CI/CD, Contentful, Core Web Vitals, CSS, Cypress, Datadog, Django, Docker,
@@ -64,22 +63,31 @@
 			<h2>Work Experience</h2>
 			<div class="resume_item">
 				<h3 class="organization" id="Policygenius">
-					<a href="https://www.policygenius.com">Policygenius</a> /
-					<a href="https://zinnia.com">Zinnia</a>
+					<a href="https://www.policygenius.com">Policygenius</a>,
+					<span class="job_title">Senior Engineering Manager</span>
 				</h3>
-				<h4 class="job_title">Senior Engineering Manager</h4>
 				<span class="role_dates">September 2021-October 2023</span>
-				<div>Company size: 700->2500 post acquisition by Zinnia</div>
-				<div>
-					Teams: Content/lead generation (4 engineers), top of the funnel (5 engineers), component
-					library (cross-team initiative)
+				<div class="company_size">
+					Series D > E > Acquired by <a href="https://zinnia.com">Zinnia</a>
+				</div>
+				<div class="team_size">
+					<h5>Teams</h5>
+					<ul>
+						<li>Content and lead generation (4 engineers)</li>
+						<li>Top of life insurance sales funnel (5 engineers)</li>
+						<li>Component library (cross-team initiative)</li>
+					</ul>
 				</div>
 				<h5>Impact</h5>
 				<ul>
-					<li>Spearheaded performance improvements on the content site</li>
-					<li>Google indexes new articles in one day rather than three</li>
-					<li>Lighthouse scores moved from 40's to 80's</li>
-					<li>Total Blocking Time on the content site reduced by 50%</li>
+					<li>
+						Spearheaded performance improvements on the content site:
+						<ul>
+							<li>Google indexes new articles in one day rather than three</li>
+							<li>Lighthouse scores moved from 40's to 80's</li>
+							<li>Total Blocking Time on the content site reduced by 50%</li>
+						</ul>
+					</li>
 					<li>
 						Demonstrated the importance of improvement across applications for SEO, leading to an
 						engineering organization culture shift toward creating performance-oriented OKRs
@@ -101,27 +109,35 @@
 			<div class="resume_item">
 				<h3 class="organization" id="SquareFoot">
 					<a href="https://squarefoot.com">SquareFoot</a>
+					<span class="job_title">Web Engineering Manager</span>
 				</h3>
-				<h4 class="job_title">Web Engineering Manager</h4>
 				<span class="role_dates">February 2020 - September 2021</span>
-				<div>Company size: 80->30 (See also: commercial real estate in 2020)</div>
-				<div>Team: Frontend product (4 engineers)</div>
+				<div class="company_size">Series B</div>
+				<div class="team_size">
+					<h5>Team:</h5>
+					Frontend product (4 engineers)
+				</div>
 				<h5>Impact</h5>
 				<ul>
 					<li>
-						Drove performance improvements such that the company's excellent SEO didn't take a hit
-						when Core Web Vitals became a factor in June 2021
+						Drove performance improvements such that the company's excellent SEO didn't suffer when
+						Core Web Vitals became a factor in June 2021
 					</li>
 				</ul>
 			</div>
 			<div class="resume_item">
 				<h3 class="organization" id="Mozilla Foundation">
 					<a href="https://foundation.mozilla.org">Mozilla Foundation</a>
+					<span class="job_title">Engineering Manager</span>
 				</h3>
-				<h4 class="job_title">Engineering Manager</h4>
 				<span class="role_dates">May 2017 - January 2020</span>
-				<div>Company size: 100, 1000 including Mozilla Corporation</div>
-				<div>Teams: Product (5 engineers), Platform (2 engineers)</div>
+				<div class="team_size">
+					<h5>Teams</h5>
+					<ul>
+						<li>Product (5 engineers)</li>
+						<li>Platform (2 engineers)</li>
+					</ul>
+				</div>
 				<h5>Impact</h5>
 				<ul>
 					<li>
@@ -129,14 +145,14 @@
 						problems engineering could solve ourselves
 					</li>
 					<li>
-						Identified an opportunity to change the technical direction of the then-nascent Mozilla
-						Foundation site to better support organizational needs and led migration to Wagtail,
-						which supported the org well for 5 years and counting
+						Led a change in technical direction of the organization's CMS that has lasted well for
+						5+ years since
 					</li>
 					<li>
-						Led the team's development of privacynotincluded.org, which has gone on to become a
-						recurring conversation point on the internet and forced companies to respond publicly to
-						its research
+						Led the team's development of <a href="https://privacynotincluded.org" target="_blank"
+							>*Privacy Not Included</a
+						>, which has gone on to become a recurring conversation point on the internet and forced
+						companies to respond publicly to its research
 					</li>
 					<li>
 						Facilitated relationships between internal support and external contractors hired to
@@ -144,7 +160,7 @@
 						and held up reliably during its first December fundraising push.
 					</li>
 				</ul>
-				<h4 class="job_title">Front End Developer</h4>
+				<h3 class="job_title">Front End Developer</h3>
 				<span class="role_dates">September 2015 - May 2017</span>
 				<!-- <p>
         Upon joining the team, I started working on the existing Webmaker Android app, a web-based app in a native wrapper that existed to empower users to create content on the web, instead of just consuming it. I also helped to create a UI framework for use across our web properties, and built out/enhanced a number of other sites like science.mozilla.org, foundation.mozilla.org, and the initial back-end work for mozillapulse.org as I learned Django.
@@ -153,9 +169,9 @@
 			<div class="resume_item">
 				<h3 class="organization" id="E*Trade Financial">
 					<a href="https://etrade.com">E*TRADE Financial</a>
+					<span class="job_title">Front End Prototype Developer</span>
 				</h3>
-				<h4 class="job_title">Front End Prototype Developer</h4>
-				<span class="organization">October 2013 - August 2015</span>
+				<span class="role_dates">October 2013 - August 2015</span>
 				<!-- <p>
         In this role I:
         <ul>
@@ -170,19 +186,9 @@
 			<div class="resume_item hide-print">
 				<h3 class="organization">
 					<a href="https://weill.cornell.edu/">Weill Cornell Medical College</a>
+					<span class="job_title">UI Designer/Developer</span>
 				</h3>
-				<h4 class="job_title">UI Designer/Developer</h4>
 				<span class="role_dates">February 2012 - October 2013</span>
-				<ul>
-					<!-- <li>Develop responsive Drupal theme for new base distribution, including a new responsive navigation pattern</li> -->
-					<!-- <li>Add front end functionality to existing internal applications</li>
-        <li>Played a strong role in the design process with guidance from art director</li>
-        <li>Implemented designs by others in code to a high level of detail</li>
-        <!-- <li>Skin various internal and 3rd party web applications</li> -->
-					<!-- <li>Develop coding standards for the web design team</li>
-        <li>Wrote CSS with support back to IE7 and Firefox 3.6</li>
-        <!-- <li>Comment code so that future developers understand it</li> -->
-				</ul>
 			</div>
 			<!-- <div class="resume_item">
       <h3 class="job_title">Desktop Support Assistant</h3>
@@ -398,15 +404,20 @@
 		display: inline;
 		font-size: 20px;
 	}
-	.job_title::after {
-		content: ',';
-	}
+
 	.organization {
 		position: sticky;
 		top: 0;
 		background-color: var(--background-color);
 		padding: 0.5em 0;
 		margin: 0.5em 0;
+		/* float: left; */
+	}
+	.role_dates {
+		/* float: right; */
+	}
+	.team_size {
+		/* clear: both; */
 	}
 
 	section > h2 {
@@ -416,6 +427,9 @@
 		font-size: 1em;
 		font-weight: bold;
 		margin-bottom: 0;
+	}
+	ul {
+		margin-top: 0em;
 	}
 
 	@media print {
