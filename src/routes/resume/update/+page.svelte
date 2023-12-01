@@ -35,24 +35,28 @@
 		</span>
 		<p>
 			Product and user-experience-focused front-end dev turned engineering leader with a passion for
-			performance and accessibility. Ideal role: hybrid in NYC
+			performance and accessibility.
+		</p>
+		<p>
+			<strong>Ideal role: hybrid 2-3 days in NYC, open to remote. No to 5 days in-office.</strong>
 		</p>
 	</header>
 	<div class="content">
 		<section>
 			<ul class="skills">
+				<li><span id="industryTime">{industryTime}</span> of industry experience</li>
 				<li>
 					<span id="managementTime">{managementTime}</span> of engineering leadership
 				</li>
-				<li><span id="industryTime">{industryTime}</span> of industry experience</li>
 				<li>
 					Focused on leading teams to solve problems for the business via a generative culture
 				</li>
 				<li>Vision crafting, OKR setting, building alignment</li>
 				<li>
+					<!-- ToDo: Change this to be strongest to weakest -->
 					AWS, BuildKite, CI/CD, Contentful, Core Web Vitals, CSS, Cypress, Datadog, Django, Docker,
-					Flask, Gatsby, GraphQL, Jest, NodeJS, Next.JS, Python, React, Storybook, Svelte, Wagtail,
-					Webpack, Vercel
+					Flask, Gatsby, GraphQL, Jest, NodeJS, Next.JS, Python, React, Storybook, Svelte, Wagtail, Webpack,
+					Vercel
 				</li>
 			</ul>
 		</section>
@@ -79,7 +83,7 @@
 						<li>Component library (cross-team initiative)</li>
 					</ul>
 				</div>
-				<h5>Impact</h5>
+				<h5>Impact - Business</h5>
 				<ul>
 					<li>
 						Spearheaded performance improvements on the content site:
@@ -93,17 +97,17 @@
 						Demonstrated the importance of improvement across applications for SEO, leading to an
 						engineering organization culture shift toward creating performance-oriented OKRs
 					</li>
-					<li>Coached Senior SWE into EM role</li>
 					<li>
-						Course corrected two under-performers, one of whom was later promoted before accepting a
-						MAANG offer
+						Established process improvements for a fledgling team in the post-acquisition months
 					</li>
+				</ul>
+				<h5>Impact - People</h5>
+				<ul>
+					<li>Coached Senior SWE II into EM role</li>
+					<li>Course corrected two under-performers, one of whom was later promoted</li>
 					<li>
 						Identified growth opportunities for two other engineers who each achieved two promotions
 						over two years
-					</li>
-					<li>
-						Established process improvements for a fledgling team in the post-acquisition months
 					</li>
 				</ul>
 			</details>
@@ -125,8 +129,23 @@
 				<h5>Impact</h5>
 				<ul>
 					<li>
-						Drove performance improvements such that the company's excellent SEO didn't suffer when
-						Core Web Vitals became a factor in June 2021
+						Established quarterly OKRs including improvement of mobile Lighthouse scores for key SEO
+						pages, improving from scores in 20's to 70's, resulting in company's excellent SEO
+						staying in place after Core Web Vitals became a ranking factor in June 2021
+					</li>
+					<li>
+						Proposed and drove a major upgrade on the web application's foundation and development
+						workflow, which had core dependencies many years out of date (e.g. Node.js v6 when v13
+						was the most recent).
+					</li>
+					<li>
+						Championed migrating main SEO pages to Next.JS, resulting in Lighthouse scores in the
+						90's, and improved rankings on Google Search.
+					</li>
+					<li>
+						Spearheaded a successful transition of the team project management workflow. This was
+						driven by a need for better asynchronous communications on a distributed team and to
+						reduce time spent in planning meetings, while ensuring predictable project delivery.
 					</li>
 				</ul>
 			</details>
@@ -154,8 +173,9 @@
 						problems engineering could solve ourselves
 					</li>
 					<li>
-						Led a change in the technical direction of the organization's CMS that has lasted well
-						for 5+ years since
+						Recognized significant disconnect between capabilities of the organization's CMS and
+						what was needed from it; After building support to move to an alternativem, I led the
+						project in a successful migration to a platform that is still used today.
 					</li>
 					<li>
 						Led the team's development of <a href="https://privacynotincluded.org" target="_blank"
@@ -471,6 +491,9 @@
 	}
 	ul {
 		margin-top: 0.5em;
+	}
+	ul ul {
+		margin-top: 0;
 	}
 
 	@media print {
