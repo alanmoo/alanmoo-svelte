@@ -27,151 +27,122 @@
 		>
 	</div>
 	<header>
-		<h1>Alan Mooiman</h1>
-		<h2 class="title">Senior Engineering Manager</h2>
-		<!-- .name_title -->
+		<h1>Alan Mooiman, Engineering Leader in NYC</h1>
 		<span class="contact_info">
 			<a class="email" href="mailto:hello@alanmooiman.com?subject=👋 Nice résumé"
 				>hello@alanmooiman.com</a
 			>
 		</span>
 		<p>
-			People focused engineering leader focused on empowering team members to grow their career and
-			craft while delivering timely value for the business
+			Product and user-experience-focused front-end dev turned engineering leader with a passion for
+			performance and accessibility.
+		</p>
+		<p>
+			<strong>
+				Ideal role: Hybrid 2-3 days in NYC, open to remote. Not 5 days in-office but we can talk if
+				it's Brooklyn.
+			</strong>
 		</p>
 	</header>
-	<!-- .contact_info -->
 	<div class="content">
-		<!-- <h3>Objective</h3>
-    <p>To lead an engaged, productive, communicative team that outputs high quality projects and works together to help one another improve their skills while building the future.</p> -->
 		<section>
-			<h2>Skills/Experience</h2>
 			<ul class="skills">
+				<li><span id="industryTime">{industryTime}</span> of industry experience</li>
 				<li>
 					<span id="managementTime">{managementTime}</span> of engineering leadership
 				</li>
-				<li><span id="industryTime">{industryTime}</span> of industry experience</li>
-				<li>Focused on solving problems for the business over simply addressing symptoms</li>
+				<li>
+					Focused on leading teams to solve problems for the business via a generative culture
+				</li>
 				<li>Vision crafting, OKR setting, building alignment</li>
 				<li>
-					React, GraphQL, Jest, Cypress, Next.JS, Gatsby, Contentful, NodeJS, CSS, Webpack, Docker,
-					Travis, Datadog, CI/CD, Core Web Vitals and web performance
+					HTML, CSS, javascript, web performance (Core Web Vitals, Lighthouse), React, Svelte,
+					Gatsby, Next.js, GraphQL, Typescript, Node, Webpack, Contentful, Cypress, Jest, Buildkite,
+					Datadog, Storybook, Wagtail, Django, Flask, Python, Vercel, Docker, AWS
 				</li>
 			</ul>
 		</section>
 		<section>
 			<h2>Work Experience</h2>
-			<div class="resume_item">
-				<h3 class="organization" id="Policygenius">
-					<a href="https://www.policygenius.com">Policygenius</a> /
-					<a href="https://zinnia.com">Zinnia</a>
-				</h3>
-				<h4 class="job_title">Senior Engineering Manager</h4>
-				<span class="role_dates">August 2023-October 2023</span>
-				<p>
-					Following an acquisition of Policygenius by Zinnia, I was promoted to Senior Engineering
-					Manager as part of the Policygenius performance review process and tapped to lead a team
-					integrating engineers from both organizations and help bring best practices from each to
-					the combined engineering organization. I laid the groundwork by shaping team processes,
-					building alignment with stakeholders, and widening bottlenecks in the development process
-					where possible. Once the team was established, I reflected on my own career and personal
-					needs and recognized the time was right to take a few months off before searching for my
-					next role.
-				</p>
-				<!-- <p>
-					The most significant opportunities ahead of me involve leading the new team through the
-					integration of engineering cultures. Historically, Zinnia has had an agency model where
-					teams build what the customer asks for, while Policygenius has aimed for a generative
-					culture in which engineers are empowered and encouraged to bring suggestions to the table
-					that will improve the product they work on. As part of that integration work, the two
-					goals I have in the short term are:
-				</p>
+			<details open class="resume_item">
+				<summary>
+					<div class="summary">
+						<h3 class="organization" id="Policygenius">
+							<a href="https://www.policygenius.com">Policygenius</a>,
+							<span class="job_title">Senior Engineering Manager</span>
+						</h3>
+						<span class="role_dates">September 2021-October 2023</span>
+					</div>
+				</summary>
+				<div class="company_size">
+					Series D > E > Acquired by <a href="https://zinnia.com">Zinnia</a>
+				</div>
+				<div class="team_size">
+					<h5>Teams</h5>
+					<ul>
+						<li>Content and lead generation (4 engineers)</li>
+						<li>Top of life insurance sales funnel (5 engineers)</li>
+						<li>Component library (cross-team initiative)</li>
+					</ul>
+				</div>
+				<h5>Impact - Business</h5>
 				<ul>
 					<li>
-						Align the team on sustainable development workflows that lead to the team being more
-						effective (as measured by metrics like DORA). The north star here is continuous
-						deployment.
+						Spearheaded performance improvements on the content site:
+						<ul>
+							<li>Google indexes new articles in one day rather than three</li>
+							<li>Lighthouse scores moved from 40's to 80's</li>
+							<li>Total Blocking Time on the content site reduced by 50%</li>
+						</ul>
 					</li>
 					<li>
-						Streamline team processes in order to reduce churn in the development process. This will
-						primarily involve working with stakeholders to get engineers involved in the discovery
-						process in order to derisk earlier than ticket estimation.
-					</li>
-				</ul> -->
-
-				<h4 class="job_title">Engineering Manager</h4>
-				<span class="role_Dates">September 2021 - July 2023</span>
-				<p>
-					At Policygenius I managed two teams. The first was Content/Lead Generation, which was
-					responsible for the public <a href="https://policygenius.com">policygenius.com</a> content
-					site and consumer education in our funnels. The second was Life Consumer, which focused on
-					our life insurance sales funnel.
-				</p>
-				<p>Primary responsibilities included:</p>
-				<ul>
-					<li>
-						Working with my teams to set and achieve technical goals every quarter based on the
-						impact they will have on the business
-					</li>
-					<li>Partnering with Product Managers to identify leads for upcoming projects</li>
-					<li>
-						Aligning with the scrum lead for each team to ensure the teams are effective and meeting
-						their goals
+						Demonstrated the importance of improvement across applications for SEO, leading to an
+						engineering organization culture shift toward creating performance-oriented OKRs
 					</li>
 					<li>
-						Coaching individual contributors engineers in their continued growth through occasional
-						code review or pairing, as well as providing feedback in 1:1s on how they can improve
-					</li>
-					<li>Coaching a rising manager on the above skills</li>
-				</ul>
-
-				<p>
-					I guided my teams to prioritize the external user experience first, via performance
-					(measured by Core Web Vitals/Lighthouse scores) and accessibility. Once we'd planned to
-					optimize for the user, then we could focus on internal users and then finally the
-					developer experience. Some accomplishments include:
-				</p>
-				<ul>
-					<li>
-						Due to architectrual changes my team spearheaded, Google now indexes new stories on the
-						content site in one day rather than three.
-					</li>
-					<li>Total Blocking Time on the content site reduced by 50%</li>
-					<li>
-						After identifying a connection between funnel page speed and SEO, I led the charge on an
-						engineering-wide culture shift to ensure we build for performance
+						Established process improvements for a fledgling team in the post-acquisition months
 					</li>
 				</ul>
-
-				<p>
-					Tech stack: React, Contentful, Gatsby/Gatsby Cloud, GraphQL, SpeedCurve, DataDog RUM,
-					Jest/React Testing Library, Cypress, BuildKite, Storybook
-				</p>
-			</div>
-			<div class="resume_item">
-				<h3 class="organization" id="SquareFoot">
-					<a href="https://squarefoot.com">SquareFoot</a>
-				</h3>
-				<h4 class="job_title">Web Engineering Manager</h4>
-				<span class="role_dates">February 2020 - September 2021</span>
-				<p>
-					SquareFoot is a commercial real estate brokerage. I led the team of 4 engineers resposible
-					for the front-end of their client acquisition platform, which was used for showing
-					listings to potential clients, onboarding them into our sales flow, and then facilitating
-					the broker/client search experience.
-				</p>
-				<p>Some significant accomplishments include:</p>
+				<h5>Impact - People</h5>
+				<ul>
+					<li>Coached Senior SWE II into EM role</li>
+					<li>Course corrected two under-performers, one of whom was later promoted</li>
+					<li>
+						Identified growth opportunities for two other engineers who each achieved two promotions
+						over two years
+					</li>
+				</ul>
+			</details>
+			<details class="resume_item">
+				<summary>
+					<div class="summary">
+						<h3 class="organization" id="SquareFoot">
+							<a href="https://squarefoot.com">SquareFoot</a>,
+							<span class="job_title">Web Engineering Manager</span>
+						</h3>
+						<span class="role_dates">February 2020 - September 2021</span>
+					</div>
+				</summary>
+				<div class="company_size">Series B</div>
+				<div class="team_size">
+					<h5>Team</h5>
+					Frontend product (4 engineers)
+				</div>
+				<h5>Impact</h5>
 				<ul>
 					<li>
-						Leading my team in working on the quarterly key result of improving mobile Lighthouse
-						scores for key SEO pages from in the 20's to 70's
+						Established quarterly OKRs including improvement of mobile Lighthouse scores for key SEO
+						pages, improving from scores in 20's to 70's, resulting in company's excellent SEO
+						staying in place after Core Web Vitals became a ranking factor in June 2021
 					</li>
 					<li>
-						Proposing and driving a major upgrade on the web application's foundation and
-						development workflow, which had core dependencies many years out of date (e.g. Node.js
-						v6 when v13 was the most recent). From there, I championed migrating the main SEO pages
-						to Next.JS, resulting in Lighthouse scores in the 90's, and improved rankings on Google
-						Search.
+						Proposed and drove a major upgrade on the web application's foundation and development
+						workflow, which had core dependencies many years out of date (e.g. Node.js v6 when v13
+						was the most recent).
+					</li>
+					<li>
+						Championed migrating main SEO pages to Next.JS, resulting in Lighthouse scores in the
+						90's, and improved rankings on Google Search.
 					</li>
 					<li>
 						Spearheaded a successful transition of the team project management workflow. This was
@@ -179,68 +150,103 @@
 						reduce time spent in planning meetings, while ensuring predictable project delivery.
 					</li>
 				</ul>
-				<p>Tech Stack: React, Webpack, Next.JS, GraphQL, AWS, Vercel</p>
-			</div>
-			<div class="resume_item">
-				<h3 class="organization" id="Mozilla Foundation">
-					<a href="https://foundation.mozilla.org">Mozilla Foundation</a>
-				</h3>
-				<h4 class="job_title">Engineering Manager</h4>
-				<span class="role_dates">May 2017 - January 2020</span>
-				<p>
-					I led a team of 6 web and devops engineers across North America and Germany, building
-					projects to support Mozilla's mission of improving internet health. I worked closely with
-					the design manager, product manager, and digital director to improve the Foundation's main
-					site at foundation.mozilla.org. The design and engineering teams also functioned as a
-					service organization internally. I partnered with the leaders of other teams to identify
-					the best way for us to address their needs while pushing forward on our team's internal
-					road map. I worked with my team to identify workflow challenges, improve their skills, and
-					foster best software development practices while keeping us moving forward. Finally, as
-					both the engineering lead and most senior technical manager in the org, I ensured
-					organizational technology decisions were made prudently with an eye on long term impact
-					and cost.
-				</p>
-				<p>Tech Stack: Wagtail CMS, React, Django Rest Framework, Heroku</p>
-				<h4 class="job_title">Front End Developer</h4>
-				<span class="role_dates">September 2015 - May 2017</span>
-				<!-- <p>
-        Upon joining the team, I started working on the existing Webmaker Android app, a web-based app in a native wrapper that existed to empower users to create content on the web, instead of just consuming it. I also helped to create a UI framework for use across our web properties, and built out/enhanced a number of other sites like science.mozilla.org, foundation.mozilla.org, and the initial back-end work for mozillapulse.org as I learned Django.
-      </p> -->
-			</div>
-			<div class="resume_item">
-				<h3 class="organization" id="E*Trade Financial">
-					<a href="https://etrade.com">E*TRADE Financial</a>
-				</h3>
-				<h4 class="job_title">Front End Prototype Developer</h4>
-				<span class="organization">October 2013 - August 2015</span>
-				<!-- <p>
-        In this role I:
-        <ul>
-          <li>Developed prototypes for the customer web app based on static comps</li>
-          <li>Experimented with new web technologies to implement within the application</li>
-          <li>Coordinated with the development team in California so that our prototypes were useful to them during production</li>
-          <li>Developed a framework of various components to be integrated into a style guide for agencies and developers to reference.</li>
-          <li>Collaborated with the iOS development and design teams to quickly integrate new technologies</li>
-        </ul>
-      </p> -->
-			</div>
-			<div class="resume_item hide-print">
-				<h3 class="organization">
-					<a href="https://weill.cornell.edu/">Weill Cornell Medical College</a>
-				</h3>
-				<h4 class="job_title">UI Designer/Developer</h4>
-				<span class="role_dates">February 2012 - October 2013</span>
+			</details>
+			<details open class="resume_item">
+				<summary>
+					<div class="summary">
+						<h3 class="organization" id="Mozilla Foundation">
+							<a href="https://foundation.mozilla.org">Mozilla Foundation</a>,
+							<span class="job_title">Engineering Manager</span>
+						</h3>
+						<span class="role_dates">May 2017 - January 2020</span>
+					</div>
+				</summary>
+				<div class="team_size">
+					<h5>Teams</h5>
+					<ul>
+						<li>Product (5 engineers)</li>
+						<li>Platform (2 engineers)</li>
+					</ul>
+				</div>
+				<h5>Impact</h5>
 				<ul>
-					<!-- <li>Develop responsive Drupal theme for new base distribution, including a new responsive navigation pattern</li> -->
-					<!-- <li>Add front end functionality to existing internal applications</li>
-        <li>Played a strong role in the design process with guidance from art director</li>
-        <li>Implemented designs by others in code to a high level of detail</li>
-        <!-- <li>Skin various internal and 3rd party web applications</li> -->
-					<!-- <li>Develop coding standards for the web design team</li>
-        <li>Wrote CSS with support back to IE7 and Firefox 3.6</li>
-        <!-- <li>Comment code so that future developers understand it</li> -->
+					<li>
+						Regularly wore a product hat, listening to the needs of stakeholders to determine what
+						problems engineering could solve ourselves
+					</li>
+					<li>
+						Recognized significant disconnect between capabilities of the organization's CMS and
+						what was needed from it; After building support to move to an alternativem, I led the
+						project in a successful migration to a platform that is still used today.
+					</li>
+					<li>
+						Led the team's development of <a href="https://privacynotincluded.org" target="_blank"
+							>*Privacy Not Included</a
+						>, which has gone on to become a recurring conversation point on the internet and forced
+						companies to respond publicly to its research
+					</li>
+					<li>
+						Facilitated relationships between internal support and external contractors hired to
+						rebuild the donation platform, which brings in millions per year. Successfully launched
+						and held up reliably during its first December fundraising push.
+					</li>
 				</ul>
-			</div>
+			</details>
+			<details>
+				<summary>
+					<div class="summary">
+						<h3 class="organization">
+							<a href="https://foundation.mozilla.org">Mozilla Foundation</a>,
+							<span class="job_title">Front End Developer</span>
+						</h3>
+						<span class="role_dates">September 2015 - May 2017</span>
+					</div>
+				</summary>
+				<p>
+					Upon joining the team, I started working on the existing Webmaker Android app, a web-based
+					app in a native wrapper that existed to empower users to create content on the web instead
+					of just consuming it. I also helped to create a UI framework for use across our web
+					properties and built out/enhanced a number of other sites like science.mozilla.org,
+					foundation.mozilla.org, and the initial back-end work for mozillapulse.org as I learned
+					Django.
+				</p>
+			</details>
+			<details>
+				<summary>
+					<div class="summary">
+						<h3 class="organization" id="E*Trade Financial">
+							<a href="https://etrade.com">E*TRADE Financial</a>,
+							<span class="job_title">Front End Prototype Developer</span>
+						</h3>
+						<span class="role_dates">October 2013 - August 2015</span>
+					</div>
+				</summary>
+				<ul>
+					<li>Developed prototypes for the customer web app based on static comps</li>
+					<li>Experimented with new web technologies to implement within the application</li>
+					<li>
+						Coordinated with the development team in California so that our prototypes were helpful
+						to them during production
+					</li>
+					<li>
+						Developed a framework of various components to be integrated into a style guide for
+						agencies and developers to reference.
+					</li>
+					<li>
+						Collaborated with the iOS development and design teams to quickly integrate new
+						technologies
+					</li>
+				</ul>
+			</details>
+			<summary>
+				<div class="summary">
+					<h3 class="organization">
+						<a href="https://weill.cornell.edu/">Weill Cornell Medical College</a>,
+						<span class="job_title">UI Designer/Developer</span>
+					</h3>
+					<span class="role_dates">February 2012 - October 2013</span>
+				</div>
+			</summary>
 			<!-- <div class="resume_item">
       <h3 class="job_title">Desktop Support Assistant</h3>
       <span class="organization">Weill Cornell Medical College - <span class="location">New York City</span></span>
@@ -270,6 +276,7 @@
       </ul>
     </div> -->
 		</section>
+		<!--
 		<section>
 			<h2>Significant Projects</h2>
 			<div class="significant-project">
@@ -429,6 +436,7 @@
 
 		<h2>References</h2>
 		<p>Available upon request</p>
+	-->
 		<!-- <ul>
       <li><a href="https://www.linkedin.com/in/vickeryj/">Joshua Vickery</a>, Principal Engineer, Namely (formerly CTO, SquareFoot)</li>
       <li><a href="https://www.linkedin.com/in/jessevondoom/">Jesse VonDoom</a>, Head of Product, Glitch</li>
@@ -451,22 +459,45 @@
 	}
 	.job_title {
 		display: inline;
-		font-size: 20px;
 	}
-	.job_title::after {
-		content: ',';
+
+	.role_dates {
+		margin: 0 0 0.5em;
 	}
+
+	.summary {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		flex-wrap: wrap;
+	}
+	summary {
+		list-style-position: outside;
+	}
+
 	.organization {
 		position: sticky;
 		top: 0;
 		background-color: var(--background-color);
 		padding: 0.5em 0;
-		margin: 0.5em 0;
+		margin: 0.5em 0.5em 0 0;
 	}
 
 	section > h2 {
 		margin-bottom: 0;
 	}
+	h5 {
+		font-size: 1em;
+		font-weight: bold;
+		margin: 0.5em 0;
+	}
+	ul {
+		margin: 0.5em 0;
+	}
+	ul ul {
+		margin: 0;
+	}
+
 	@media print {
 		:root {
 			font-size: 12px;
@@ -481,24 +512,9 @@
 		h2 {
 			font-size: 1.33em;
 		}
-		.title {
-			display: inline-block;
-			margin: 0 1em 0 0;
-		}
-
 		h3 {
 			font-size: 1.25em;
 		}
-
-		.resume_item,
-		.significant_project {
-			break-inside: avoid-page;
-		}
-
-		.hide-print {
-			display: none;
-		}
-
 		.show-print {
 			display: block;
 			float: right;

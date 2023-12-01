@@ -108,7 +108,7 @@
 
 <style>
 	@media print {
-		footer {
+		footer * {
 			display: none;
 		}
 	}
