@@ -39,8 +39,8 @@
 		</p>
 		<p>
 			<strong>
-				Ideal role: Hybrid 2-3 days in NYC, open to remote. No to 5 days in-office but we can talk
-				if it's Brooklyn.
+				Ideal role: Hybrid 2-3 days in NYC, open to remote. Not 5 days in-office but we can talk if
+				it's Brooklyn.
 			</strong>
 		</p>
 	</header>
@@ -56,10 +56,9 @@
 				</li>
 				<li>Vision crafting, OKR setting, building alignment</li>
 				<li>
-					<!-- ToDo: Change this to be strongest to weakest -->
-					AWS, BuildKite, CI/CD, Contentful, Core Web Vitals, CSS, Cypress, Datadog, Django, Docker,
-					Flask, Gatsby, GraphQL, Jest, NodeJS, Next.JS, Python, React, Storybook, Svelte, Wagtail, Webpack,
-					Vercel
+					HTML, CSS, javascript, web performance (Core Web Vitals, Lighthouse), React, Svelte,
+					Gatsby, Next.js, GraphQL, Typescript, Node, Webpack, Contentful, Cypress, Jest, Buildkite,
+					Datadog, Storybook, Wagtail, Django, Flask, Python, Vercel, Docker, AWS
 				</li>
 			</ul>
 		</section>
@@ -513,15 +512,9 @@
 		h2 {
 			font-size: 1.33em;
 		}
-		.title {
-			display: inline-block;
-			margin: 0 1em 0 0;
-		}
-
 		h3 {
 			font-size: 1.25em;
 		}
-
 		.show-print {
 			display: block;
 			float: right;
