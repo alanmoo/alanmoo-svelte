@@ -38,7 +38,10 @@
 			performance and accessibility.
 		</p>
 		<p>
-			<strong>Ideal role: hybrid 2-3 days in NYC, open to remote. No to 5 days in-office.</strong>
+			<strong>
+				Ideal role: Hybrid 2-3 days in NYC, open to remote. No to 5 days in-office but we can talk
+				if it's Brooklyn.
+			</strong>
 		</p>
 	</header>
 	<div class="content">
@@ -490,10 +493,10 @@
 		margin: 0.5em 0;
 	}
 	ul {
-		margin-top: 0.5em;
+		margin: 0.5em 0;
 	}
 	ul ul {
-		margin-top: 0;
+		margin: 0;
 	}
 
 	@media print {
