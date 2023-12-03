@@ -475,6 +475,17 @@
 		list-style-position: outside;
 	}
 
+	/* Safari Fixes */
+	details summary {
+		position: relative;
+	}
+	details summary::-webkit-details-marker {
+		position: absolute;
+		left: -1em;
+		top: 1.5em;
+	}
+	/* End Safari Fixes */
+
 	.organization {
 		position: sticky;
 		top: 0;
