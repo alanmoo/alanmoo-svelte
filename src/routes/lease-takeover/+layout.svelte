@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Rent stabilized lease takeover!</title>
-	<meta name="description" content="Rent stabilized 1BR for rent in Crown Heights, Jan 1" />
+	<title>Rent stabilized lease takeover</title>
+	<meta name="description" content="Available Jan 1. 1BR, luxury building, amenities included" />
 </svelte:head>
 
 <slot />

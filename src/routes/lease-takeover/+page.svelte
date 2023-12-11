@@ -11,6 +11,15 @@
 	<img src="/lease-takeover/bedroom.jpeg" alt="Bedroom" />
 	<img src="/lease-takeover/bedroom-alt.jpeg" alt="Bedroom" />
 	<img src="/lease-takeover/bathroom.jpeg" alt="Bathroom" />
+	<img src="/lease-takeover/laundry.jpeg" alt="Lots of laundry machines in the building" />
+	<img src="/lease-takeover/gym.jpeg" alt="Building gym with elipticals and treadmills" />
+	<img src="/lease-takeover/gym 2.jpeg" alt="Building gym with strength equipment" />
+	<img src="/lease-takeover/rec-room.jpeg" alt="Building rec room" />
+	<img src="/lease-takeover/rec-room alt.jpeg" alt="Building rec room, second view" />
+	<img
+		src="/lease-takeover/recycling.jpeg"
+		alt="Textile and electronics recycling in the building"
+	/>
 </div>
 <!-- <div class="images">
 	{#each pictures as image}
@@ -40,11 +49,13 @@
 
 				<div class="mb-6">
 					<h3>Location</h3>
-					Crown Heights, Brooklyn
+					<a href="https://maps.app.goo.gl/mBk9erJwST3cSNms5" target="_blank"
+						>497 St Marks Ave, Crown Heights, Brooklyn</a
+					>
 				</div>
 				<div class="mb-6">
 					<h3>Available</h3>
-					As early as Dec 17
+					Jan 1, 2024. Possibly earlier if needed
 				</div>
 
 				<div class="mb-6">
