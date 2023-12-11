@@ -1,5 +1,5 @@
 <script>
-	import JobCard from '../lib/components/jobCard.svelte';
+	import JobCard from '../../lib/components/jobCard.svelte';
 	let experiences = [
 		{
 			company: 'Policygenius',
@@ -50,6 +50,10 @@
 	<h2>Projects</h2>
 	<div class="card-wrapper">
 		<a class="card" href="/projects/vestaweather">
+			<img
+				src="/vestaweather.jpg"
+				alt="A Vestaboard brand split-flap display with 'NYC weather' in the top row and then rows of colors in the four following rows, representing weather condition measurements. The final row has 'N' 7 characters in and 'M' four characters from the end"
+			/>
 			<h3>Vestaweather</h3>
 			<p>A weather application for Vestaboard</p>
 		</a>
@@ -74,9 +78,8 @@
 		display: flex;
 		gap: 2rem;
 		flex-wrap: wrap;
-	}
-	.card-wrapper > * {
-		flex: 1;
+		container-name: card;
+		container-type: inline-size;
 	}
 
 	a p {
@@ -92,5 +95,14 @@
 	section {
 		max-width: 100ch;
 		margin: 4em auto 0;
+	}
+	.card img {
+		float: left;
+		max-width: 200px;
+		padding-right: 1em;
+		margin-left: -1rem;
+		margin-top: -1rem;
+		margin-bottom: -1rem;
+		border-radius: 0.5em;
 	}
 </style>

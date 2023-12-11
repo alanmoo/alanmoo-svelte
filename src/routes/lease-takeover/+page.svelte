@@ -2,10 +2,6 @@
 	export let pictures: string[]; // The array of image URLs
 </script> -->
 
-<svelte:head>
-	<title>Rent stabilized lease takeover!</title>
-	<meta name="description" content="Rent stabilized 1BR for rent in Crown Heights, Jan 1" />
-</svelte:head>
 <div class="images">
 	<img src="/lease-takeover/floorplan.jpeg" alt="Floorplan" width="1200" height="751" />
 	<img src="/lease-takeover/kitchen.jpeg" alt="Kitchen" />

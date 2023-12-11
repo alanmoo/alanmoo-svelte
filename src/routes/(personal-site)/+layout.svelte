@@ -5,9 +5,15 @@
 	import { inject } from '@vercel/analytics';
 
 	inject({ mode: dev ? 'development' : 'production' });
-	import '../main.css';
+	import '../../main.css';
 </script>
 
+<svelte:head>
+	<meta
+		name="description"
+		content="Alan Mooiman is a software engineering leader and an advocate for an people first, accessible world, both online and offline"
+	/>
+</svelte:head>
 <Header />
 <main>
 	<slot />
