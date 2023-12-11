@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Moo on the Web</title>
+	<meta name="description" content="Some personal projects I've worked on" />
+</svelte:head>
+
 <div class="project">
 	<slot />
 </div>

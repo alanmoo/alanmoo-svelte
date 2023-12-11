@@ -2,6 +2,14 @@
 	<slot />
 </div>
 
+<svelte:head>
+	<title>Moo on the Web</title>
+	<meta
+		name="description"
+		content="Web development, eng leadership, urban design, and tech thoughts"
+	/>
+</svelte:head>
+
 <style>
 	.blog {
 		max-width: 70ch;
