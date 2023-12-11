@@ -1,20 +1,26 @@
-<script>
-	let images = import.meta.glob('/lease-takeover/*.jpeg', { eager: true });
-	console.log(images);
-</script>
+<!-- <script lang="ts">
+	export let pictures: string[]; // The array of image URLs
+</script> -->
 
 <svelte:head>
 	<title>Rent stabilized lease takeover!</title>
+	<meta name="description" content="Rent stabilized 1BR for rent in Crown Heights, Jan 1" />
 </svelte:head>
 <div class="images">
 	<img src="/lease-takeover/floorplan.jpeg" alt="Floorplan" width="1200" height="751" />
+	<img src="/lease-takeover/kitchen.jpeg" alt="Kitchen" />
+	<img src="/lease-takeover/kitchen-alt.jpeg" alt="Kitchen alternate side" />
 	<img src="/lease-takeover/living.jpeg" alt="Living Room" />
 	<img src="/lease-takeover/living-alt.jpeg" alt="Living Room, alternate side" />
-	<img src="/lease-takeover/dining.jpeg" alt="Dining area" />
-	<img src="/lease-takeover/kitchen.jpeg" alt="Kitchen" />
 	<img src="/lease-takeover/bedroom.jpeg" alt="Bedroom" />
+	<img src="/lease-takeover/bedroom-alt.jpeg" alt="Bedroom" />
 	<img src="/lease-takeover/bathroom.jpeg" alt="Bathroom" />
 </div>
+<!-- <div class="images">
+	{#each pictures as image}
+		{image}
+	{/each}
+</div> -->
 <div style="max-width: 770px;margin: 0 auto;">
 	<div class="text-grey-darkest">
 		<div class="flex flex-col md:flex-row text-grey-darker pt-8 mb-0">
