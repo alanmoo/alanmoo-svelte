@@ -67,6 +67,10 @@
 					<h3>Size</h3>
 					375 sq. ft.
 				</div>
+				<div class="mb-6">
+					<h3>Contact</h3>
+					<a href="mailto:leasetakeover@alanmooiman.com">leasetakeover@alanmooiman.com</a>
+				</div>
 				<div class="pt-12">
 					<div style="width: 300px;">
 						<div style="width: auto; display: inline-block;" />
