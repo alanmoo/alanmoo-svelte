@@ -47,9 +47,9 @@
 	<div class="content">
 		<section>
 			<ul class="skills">
-				<li><span id="industryTime">{industryTime}</span> of industry experience</li>
+				<li><span id="industryTime">12+ years</span> of industry experience</li>
 				<li>
-					<span id="managementTime">{managementTime}</span> of engineering leadership
+					<span id="managementTime">6+ years</span> of engineering leadership
 				</li>
 				<li>
 					Focused on leading teams to solve problems for the business via a generative culture
