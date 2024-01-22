@@ -80,8 +80,8 @@
 				<div class="team_size">
 					<h5>Teams</h5>
 					<ul>
-						<li>Content and lead generation (4 engineers)</li>
-						<li>Top of life insurance sales funnel (5 engineers)</li>
+						<li>Content/Lead Generation(4 engineers)</li>
+						<li>Life Insurance Growth (5 engineers)</li>
 						<li>Component library (cross-team initiative)</li>
 					</ul>
 				</div>
