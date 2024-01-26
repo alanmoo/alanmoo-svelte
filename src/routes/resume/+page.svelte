@@ -39,8 +39,8 @@
 		</p>
 		<p>
 			<strong>
-				Ideal role: Hybrid 2-3 days in NYC, open to remote. Not 5 days in-office but we can talk if
-				it's Brooklyn.
+				Ideal role: Hybrid in NYC, open to remote. Not 5 days in-office but we can talk if it's
+				Brooklyn.
 			</strong>
 		</p>
 	</header>
