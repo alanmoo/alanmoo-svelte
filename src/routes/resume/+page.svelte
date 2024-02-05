@@ -34,35 +34,33 @@
 			>
 		</span>
 		<p>
-			Product and user-experience-focused front-end dev turned engineering leader with a passion for
-			performance and accessibility.
-		</p>
-		<p>
-			<strong>
-				Ideal role: Hybrid in NYC, open to remote. Not 5 days in-office but we can talk if it's
-				Brooklyn.
-			</strong>
+			Product minded engineering leader with a focus on user experience and a passion for
+			performance, accessibility, and team effectiveness.
 		</p>
 	</header>
 	<div class="content">
-		<section>
-			<ul class="skills">
-				<li><span id="industryTime">12+ years</span> of industry experience</li>
-				<li>
-					<span id="managementTime">6+ years</span> of engineering leadership
-				</li>
-				<li>
-					Focused on leading teams to solve problems for the business via a generative culture
-				</li>
-				<li>Vision crafting, OKR setting, building alignment</li>
-				<li>
-					HTML, CSS, javascript, web performance (Core Web Vitals, Lighthouse), React, Svelte,
-					Gatsby, Next.js, GraphQL, Typescript, Node, Webpack, Contentful, Cypress, Jest, Buildkite,
-					Datadog, Storybook, Wagtail, Django, Flask, Python, Vercel, Docker, AWS
-				</li>
-			</ul>
+		<section class="metadata">
+			<h2>TL;DR</h2>
+			<p><span id="industryTime">12+ years</span> of web development experience</p>
+			<p>
+				<span id="managementTime">6+ years</span> of engineering leadership
+			</p>
+			<p>Focused on leading teams to solve problems for the business via a generative culture</p>
+
+			<h3>Ideal role</h3>
+			<p>Hybrid in NYC, open to remote.</p>
+			<p>Leadership position, open to IC</p>
+
+			<h3>Leadership strengths</h3>
+			<p>Team vision crafting, OKR setting, building alignment, team effectiveness</p>
+			<h3>Tech strengths</h3>
+			<p>
+				HTML, CSS, Javascript, web performance (Core Web Vitals, Lighthouse), React, Svelte, Gatsby,
+				Next.js, GraphQL, Typescript, Node, Webpack, Contentful, Cypress, Jest, Buildkite, Datadog,
+				Storybook, Wagtail, Django, Flask, Python, Vercel, Docker, AWS
+			</p>
 		</section>
-		<section>
+		<section class="roles">
 			<h2>Work Experience</h2>
 			<details open class="resume_item">
 				<summary>
@@ -80,7 +78,7 @@
 				<div class="team_size">
 					<h5>Teams</h5>
 					<ul>
-						<li>Content/Lead Generation(4 engineers)</li>
+						<li>Content/Lead Generation (4 engineers)</li>
 						<li>Life Insurance Growth (5 engineers)</li>
 						<li>Component library (cross-team initiative)</li>
 					</ul>
@@ -452,7 +450,20 @@
 <style>
 	.resume {
 		margin: 0 auto;
-		max-width: 70ch;
+		max-width: 110ch;
+	}
+	.content {
+		display: grid;
+		grid-template-areas: 'jobs jobs jobs meta';
+		gap: 2em;
+	}
+	.metadata {
+		grid-area: meta;
+		max-width: 40ch;
+	}
+	.roles {
+		grid-area: jobs;
+		max-width: 60ch;
 	}
 	.show-print {
 		display: none;
