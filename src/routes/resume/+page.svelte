@@ -62,7 +62,7 @@
 			<h3>Extracurriculars</h3>
 			<h4>Conferences/Festivals</h4>
 			<ul>
-				<li><a href="https://cascadiajs.com/">CascadiaJS</a>, speaker (2015)</li>
+				<li><a href="https://cascadiajs.com/">CascadiaJS</a> (2015 speaker)</li>
 				<li><a href="https://xoxofest.com/">XOXO Festival</a> (2016, 2018, 2019)</li>
 				<li><a href="https://perfnow.nl/">Performance.now</a> (2023)</li>
 				<li><a href="https://leaddev.com/">Lead Dev</a> (2019, 2023)</li>
@@ -71,6 +71,7 @@
 				<a href="https://transalt.org/">Transportation Alternatives</a> member/activist since 2022
 			</p>
 			<p><a href="https://ohny.org">Open House New York</a> member/volunteer since 2019</p>
+			<p>Learning Danish just because I'm commited to a bit</p>
 		</section>
 		<section class="roles">
 			<h2>Work Experience</h2>
