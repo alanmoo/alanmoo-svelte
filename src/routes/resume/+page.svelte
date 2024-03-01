@@ -93,7 +93,7 @@
 					<ul>
 						<li>Content/Lead Generation (4 engineers)</li>
 						<li>Life Insurance Growth (5 engineers)</li>
-						<li>Component library (cross-team initiative)</li>
+						<li>Front-end platform/component library (cross-team initiative)</li>
 					</ul>
 				</div>
 				<h5>Impact - Business</h5>
