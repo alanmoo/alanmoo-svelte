@@ -89,7 +89,7 @@
 					Series D > E > Acquired by <a href="https://zinnia.com">Zinnia</a>
 				</div>
 				<div class="team_size">
-					<h5>Teams</h5>
+					<h5>Teams Lead (simultaneously)</h5>
 					<ul>
 						<li>Content/Lead Generation (4 engineers)</li>
 						<li>Life Insurance Growth (5 engineers)</li>
