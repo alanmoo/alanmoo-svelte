@@ -49,7 +49,7 @@
 
 			<h3>Ideal role</h3>
 			<p>Hybrid in NYC, open to remote.</p>
-			<p>Leadership position, open to IC</p>
+			<p>Engineering Manager or Director</p>
 
 			<h3>Leadership strengths</h3>
 			<p>Team vision crafting, OKR setting, building alignment, team effectiveness</p>
