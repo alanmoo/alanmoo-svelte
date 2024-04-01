@@ -34,18 +34,30 @@
 			>
 		</span>
 		<p>
-			Product minded engineering leader with a focus on user experience and a passion for
-			performance, accessibility, and team effectiveness.
+			I am a product-minded engineering leader passionate about user experience, performance, and
+			accessibility. I operate with a heavy focus on team effectiveness, partnering with product
+			stakeholders to build systems and goals that reduce technical debt while continually
+			delivering improvements for the business. As a result of working on distributed teams for a
+			decade, I constantly advocate for improvements in organizational communication through
+			synchronous and asynchronous channels. I leverage these improvements to create alignment and
+			build support for the most impactful technical metrics to watch when building our solutions
+			within the team and across the broader organization.
 		</p>
 	</header>
 	<div class="content">
 		<section class="metadata">
 			<h2>TL;DR</h2>
-			<p><span id="industryTime">12+ years</span> of web development experience</p>
+			<p>
+				<span id="industryTime">12+ years</span> in software engineering, primarily focused on UI and
+				web
+			</p>
 			<p>
 				<span id="managementTime">6+ years</span> of engineering leadership
 			</p>
-			<p>Focused on leading teams to solve problems for the business via a generative culture</p>
+			<p>
+				Focused on leading teams to solve problems for the business via a generative,
+				devOps-oriented culture
+			</p>
 
 			<h3>Ideal role</h3>
 			<p>Hybrid in NYC, open to remote.</p>
