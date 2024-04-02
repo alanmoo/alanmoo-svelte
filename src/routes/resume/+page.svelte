@@ -54,6 +54,7 @@
 			<p>
 				<span id="managementTime">6+ years</span> of engineering leadership
 			</p>
+			<p>A proponent of leveraging the core web platform whenever possible</p>
 			<p>
 				Focused on leading teams to solve problems for the business via a generative,
 				devOps-oriented culture
@@ -108,31 +109,57 @@
 						<li>Front-end platform/component library (cross-team initiative)</li>
 					</ul>
 				</div>
-				<h5>Impact - Business</h5>
+				<h5>Team effectiveness</h5>
+				<ul>
+					<li>Established Content team technical vision and quarterly OKRs for each team</li>
+					<li>
+						Stabilized foundation of team technology, which eventually allowed the team to shift
+						focus. This was done by leading initiatives such as: reducing publishing times,
+						eliminating linter warnings to reduce bugs, and migrating away from CSS-in-JS
+					</li>
+					<li>
+						Shortened engineer feedback cycles by implementing preview applications and better local
+						development best practices
+					</li>
+					<li>
+						As a result of weekly 1:1 conversations with my reports, I regularly brought forth
+						suggestions for team communication and process improvements
+					</li>
+					<li>
+						Established technical vision and stewardship model for cross-team component library to
+						ensure stability as a new business strategy was built on top of it
+					</li>
+					<li>
+						After Policygenius was acquired, I was tasked with leading a newly formed team focused
+						on an emergent business line. In a short time I established communication norms and
+						project planning best practices based on those we had in place at Policygenius
+					</li>
+				</ul>
+				<h5>Business impact</h5>
 				<ul>
 					<li>
-						Spearheaded performance improvements on the content site:
+						Leveraged aforementioned OKRs to drive performance improvements on the content site,
+						resulting in Google indexing new articles in one day rather than three
 						<ul>
-							<li>Google indexes new articles in one day rather than three</li>
-							<li>Lighthouse scores moved from 40's to 80's</li>
+							<li>
+								Lighthouse scores (a signal used for search enginge ranking) moved from 40's to 80's
+							</li>
 							<li>Total Blocking Time on the content site reduced by 50%</li>
 						</ul>
 					</li>
 					<li>
-						Demonstrated the importance of improvement across applications for SEO, leading to an
-						engineering organization culture shift toward creating performance-oriented OKRs
-					</li>
-					<li>
-						Established process improvements for a fledgling team in the post-acquisition months
+						Demonstrated the importance of performance improvement across applications for SEO,
+						leading to an engineering organization culture shift and 3 additional teams creating
+						performance related OKRs
 					</li>
 				</ul>
-				<h5>Impact - People</h5>
+				<h5>People</h5>
 				<ul>
 					<li>Coached Senior SWE II into EM role</li>
 					<li>Course corrected two under-performers, one of whom was later promoted</li>
 					<li>
-						Identified growth opportunities for two other engineers who each achieved two promotions
-						over two years
+						Identified cross-team growth opportunities for two other engineers who each achieved two
+						promotions over two years
 					</li>
 				</ul>
 			</details>
