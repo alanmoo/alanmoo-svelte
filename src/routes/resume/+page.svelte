@@ -65,7 +65,10 @@
 			<p>Engineering Manager or Director</p>
 
 			<h3>Leadership strengths</h3>
-			<p>Team vision crafting, OKR setting, building alignment, team effectiveness</p>
+			<p>
+				Team vision crafting, OKR setting, building alignment, team effectiveness, developer
+				efficiency (DevEx)
+			</p>
 			<h3>Tech strengths</h3>
 			<p>
 				HTML, CSS, Javascript, web performance (Core Web Vitals, Lighthouse), React, Svelte, Gatsby,
