@@ -120,4 +120,16 @@
 		margin-bottom: -1rem;
 		border-radius: 0.5em;
 	}
+	@container (max-width: 420px) {
+		.card img {
+			float: none;
+			display: block;
+			max-width: unset;
+			width: calc(100% + 2em);
+			height: auto;
+			border-radius: 0.5em 0.5em 0 0;
+			margin: -1em -1em 1em -1em;
+			padding: 0;
+		}
+	}
 </style>
