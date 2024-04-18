@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Moo on the Web</title>
+	<title>Alan Mooiman | Projects</title>
 	<meta name="description" content="Some personal projects I've worked on" />
 </svelte:head>
 

@@ -36,6 +36,7 @@
 		name="description"
 		content="Alan Mooiman is a software engineering leader and an advocate for an people first, accessible world, both online and offline"
 	/>
+	<title>Alan Mooiman | Engineering Leader and Transit Advocate</title>
 </svelte:head>
 
 <div class="intro">
