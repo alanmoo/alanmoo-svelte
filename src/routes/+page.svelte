@@ -64,6 +64,8 @@
 	<div class="card-wrapper">
 		<a class="card" href="/projects/vestaweather">
 			<img
+				width="184"
+				height="138"
 				src="/vestaweather.jpg"
 				alt="A Vestaboard brand split-flap display with 'NYC weather' in the top row and then rows of colors in the four following rows, representing weather condition measurements. The final row has 'N' 7 characters in and 'M' four characters from the end"
 			/>
