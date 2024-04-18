@@ -22,7 +22,7 @@ And the following styles to style it:
 
 If you're thinking, "Wait, this won't work," (because the `input` element is self-closing) you are correct. [Svelte](https://svelte.dev/) (well, maybe it was [SvelteKit](https://kit.svelte.dev/)) + VSCode also picked up on this, and showed a warning that this doesn't target anything!
 
-![A screenshot of VSCode with the above code showing a warning that reads `Unused CSS Selector '.show-nav:checked .nav-links'`](/Svelte%20CSS%20linting.png)
+![A screenshot of VSCode with the above code showing a warning that reads 'Unused CSS Selector: .show-nav:checked .nav-links'](/Svelte%20CSS%20linting.png)
 
 Adding a `+` selector fixed it since these are [sibling](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator) elements
 
