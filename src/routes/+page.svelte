@@ -63,10 +63,8 @@
 	<h2>Projects</h2>
 	<div class="card-wrapper">
 		<a class="card" href="/projects/vestaweather">
-			<img
-				width="184"
-				height="138"
-				src="/vestaweather.jpg"
+			<enhanced:img
+				src="./vestaweather.jpg"
 				alt="A Vestaboard brand split-flap display with 'NYC weather' in the top row and then rows of colors in the four following rows, representing weather condition measurements. The final row has 'N' 7 characters in and 'M' four characters from the end"
 			/>
 			<h3>Vestaweather</h3>
@@ -114,13 +112,14 @@
 	.card img {
 		float: left;
 		max-width: 200px;
+		height: auto;
 		padding-right: 1em;
 		margin-left: -1rem;
 		margin-top: -1rem;
 		margin-bottom: -1rem;
 		border-radius: 0.5em;
 	}
-	@container (max-width: 330px) {
+	@container (max-width: 346px) {
 		.card img {
 			float: none;
 			display: block;
