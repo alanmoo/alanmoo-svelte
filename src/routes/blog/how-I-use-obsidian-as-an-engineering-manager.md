@@ -46,7 +46,7 @@ After a few wasted hours of organizing _all_ my notes into folders, I realized i
 
 I’m using a lightly modified version of [Dann Berg’s](https://dannb.org/blog/2022/obsidian-daily-note-template/) daily note template. It’s not perfect for me yet, but it gets the job done. Notice the Templater tags that get run when I create the note.
 
-````
+````markdown
 ---
 created: <% tp.file.creation_date() %>
 ---
@@ -56,7 +56,6 @@ tags:: [[+Daily Notes]]
 # <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>
 
 << [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format('YYYY-MM-DD-dddd') %>|Yesterday]] | [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format('YYYY-MM-DD-dddd') %>|Tomorrow]] >>
-
 
 # 📝 Scratch pad
 

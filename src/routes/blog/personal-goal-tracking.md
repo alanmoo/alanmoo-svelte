@@ -45,44 +45,41 @@ Below that, I keep track of the books I've read. Note that I'm using a task list
 
 Finally, I've got a dataview snippet that visualizes things.
 
-```
+```javascript
 const data = dv.current();
 
 function getChecklistItems(goal, heading) {
-  let page = dv.page("2024"); //The page name
-  let completed = page.file.tasks.filter(task => task.section.subpath === heading).length;
-  return completed;
+	let page = dv.page('2024'); //The page name
+	let completed = page.file.tasks.filter((task) => task.section.subpath === heading).length;
+	return completed;
 }
 
-let bookProgress = getChecklistItems([data.BookGoal], "Books read");
+let bookProgress = getChecklistItems([data.BookGoal], 'Books read');
 const chartData = {
-	type: "bar",
+	type: 'bar',
 	data: {
-	datasets: [
-		{
-			data: [
-			  { y: "Books", x: bookProgress },
-			]
-		}
-	]
-},
+		datasets: [
+			{
+				data: [{ y: 'Books', x: bookProgress }]
+			}
+		]
+	},
 
-options: {
-	animation: false,
-	plugins:{legend:{display: false}},
-	scales: { x: { max: Number([data.BookGoal]) } },
-	indexAxis: "y",
-},
-
-}
+	options: {
+		animation: false,
+		plugins: { legend: { display: false } },
+		scales: { x: { max: Number([data.BookGoal]) } },
+		indexAxis: 'y'
+	}
+};
 window.renderChart(chartData, this.container);
 ```
 
 <img alt="A horizontal bar graph that shows I've read 3 books, with an x axis that goes to 12" src="/goal-tracking-books.png">
 This is kind of useful, but it's missing some context. Let's make this bar represent a percent of the total goal and add a second one to show how far into the year we are:
 
-```
-const data = dv.current()
+```javascript
+const data = dv.current();
 
 // How far into the year are we
 var now = new Date();
@@ -92,37 +89,33 @@ var oneDay = 1000 * 60 * 60 * 24;
 var day = Math.floor(diff / oneDay);
 
 function getChecklistItems(goal, heading) {
-  let page = dv.page("2024");
-  let completed = page.file.tasks.filter(task => task.section.subpath === heading).length;
-  return (completed/goal)*100;
+	let page = dv.page('2024');
+	let completed = page.file.tasks.filter((task) => task.section.subpath === heading).length;
+	return (completed / goal) * 100;
 }
 
-let bookProgress = getChecklistItems([data.BookGoal], "Books read");
+let bookProgress = getChecklistItems([data.BookGoal], 'Books read');
 
 const chartData = {
-	type: "bar",
+	type: 'bar',
 	data: {
-	datasets: [
-		{
-			data: [
-			  { y: "Books", x: bookProgress },
-			  { y: "Year", x: (day / 366) * 100 }
-			]
-		}
-	]
-},
+		datasets: [
+			{
+				data: [
+					{ y: 'Books', x: bookProgress },
+					{ y: 'Year', x: (day / 366) * 100 }
+				]
+			}
+		]
+	},
 
-
-
-options: {
-animation: false,
-scales: { x: { max: 100 } },
-plugins:{legend:{display: false}},
-indexAxis: "y",
-
-},
-
-}
+	options: {
+		animation: false,
+		scales: { x: { max: 100 } },
+		plugins: { legend: { display: false } },
+		indexAxis: 'y'
+	}
+};
 window.renderChart(chartData, this.container);
 ```
 
@@ -130,15 +123,15 @@ Now this is more useful: You can see I'm a little behind in my reading goal for 
 
 But remember that calorie goal I had? That's not something that's going to work with a list. Instead, I keep track of calories burned for the day in a data property on each of my daily notes:
 
-```
+```markdown
 active calories:
 ```
 
 Back in my `2024` file, I can comb through my daily notes and create a running total of calories burned for the year (making sure to include `CaloriesGoal::96000`
 in the file)
 
-```
-const data = dv.current()
+```javascript
+const data = dv.current();
 
 // How far into the year are we
 var now = new Date();
@@ -147,47 +140,46 @@ var diff = now - start;
 var oneDay = 1000 * 60 * 60 * 24;
 var day = Math.floor(diff / oneDay);
 
-let dailyNotes = dv.pages('"periodic/daily"').
-  filter(page => page.file.name.startsWith("2024"));
-let totalCalories = dailyNotes.map(page => {
-  return page['active-calories'] || 0
-}).values.reduce((acc, calories) => acc + (calories || 0), 0);
-const calorieProgress = (totalCalories/[data.CaloriesGoal])*100;
+let dailyNotes = dv.pages('"periodic/daily"').filter((page) => page.file.name.startsWith('2024'));
+let totalCalories = dailyNotes
+	.map((page) => {
+		return page['active-calories'] || 0;
+	})
+	.values.reduce((acc, calories) => acc + (calories || 0), 0);
+const calorieProgress = (totalCalories / [data.CaloriesGoal]) * 100;
 
 function getChecklistItems(goal, heading) {
-  let page = dv.page("2024");
-  let completed = page.file.tasks.filter(task => task.section.subpath === heading).length;
-  return (completed/goal)*100;
+	let page = dv.page('2024');
+	let completed = page.file.tasks.filter((task) => task.section.subpath === heading).length;
+	return (completed / goal) * 100;
 }
 
-let bookProgress = getChecklistItems([data.BookGoal], "Books read");
-let cbProgress = getChecklistItems([data.CBGoal], "CB Meetings");
-let groupEventProgress = getChecklistItems([data.GroupEventGoal], "Group events")
-let advocacyEventProgress = getChecklistItems([data.AdvocacyGoal], "Advocacy events")
+let bookProgress = getChecklistItems([data.BookGoal], 'Books read');
+let cbProgress = getChecklistItems([data.CBGoal], 'CB Meetings');
+let groupEventProgress = getChecklistItems([data.GroupEventGoal], 'Group events');
+let advocacyEventProgress = getChecklistItems([data.AdvocacyGoal], 'Advocacy events');
 
 const chartData = {
-	type: "bar",
+	type: 'bar',
 	data: {
-	datasets: [
-		{
-			data: [
-			  { y: "Books", x: bookProgress },
-			  { y: "Calories", x: calorieProgress },
-			  { y: "Year", x: (day / 365) * 100 }
-			]
-		}
-	]
-},
+		datasets: [
+			{
+				data: [
+					{ y: 'Books', x: bookProgress },
+					{ y: 'Calories', x: calorieProgress },
+					{ y: 'Year', x: (day / 365) * 100 }
+				]
+			}
+		]
+	},
 
-options: {
-animation: false,
-scales: { x: { max: 100 } },
-plugins:{legend:{display: false}},
-indexAxis: "y",
-
-},
-
-}
+	options: {
+		animation: false,
+		scales: { x: { max: 100 } },
+		plugins: { legend: { display: false } },
+		indexAxis: 'y'
+	}
+};
 window.renderChart(chartData, this.container);
 ```
 
@@ -200,16 +192,17 @@ This is all awesome, but as I mentioned above, none of this is useful if it isn'
 - Every weekly note shows my goal bar chart (using the embedded preview feature: `![[2024#Yearly Goal Progress]]`, which points to the heading above the chart)
 - Right below that, I have a section for my week's goals. For example:
 
-```
+```markdown
 ![[2024#Yearly Goal Progress]]
 
 ## This week's goals
+
 - [ ] Finish my current book
 ```
 
 - And finally, at the top of my daily note template I have the current week's goals show up:
 
-```
+```markdown
 ![[<% tp.date.now("YYYY") + '-W' + tp.date.now("W") %>#This week's goals]]
 ```
 
