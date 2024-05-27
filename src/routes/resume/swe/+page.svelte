@@ -29,9 +29,10 @@
 			>
 		</span>
 		<p>
-			I am a product-minded engineer passionate about user experience, performance, and
-			accessibility. With 6+ years in leadership, I look at not just how I can solve the problems
-			I'm presented, but how I can help my team have an impact on broader business goals.
+			I'm a product-minded engineer passionate about user experience, performance, and
+			accessibility. With 6+ years' experience in leadership roles, I look at not just how I can
+			solve the problems I'm presented, but how I can help my team have an impact on broader
+			business goals.
 		</p>
 
 		<p>
@@ -64,15 +65,15 @@
 
 			<h3>Tech strengths</h3>
 			<p>
-				HTML, CSS, Javascript, web performance (Core Web Vitals, Lighthouse), React, Svelte, Gatsby,
-				Next.js, GraphQL, Typescript, Node, Webpack, Contentful, Cypress, Jest, React Testing
+				HTML, CSS, Javascript/Typescript, React, web performance, core web litals, lighthouse,
+				Svelte, Gatsby, Next.js, GraphQL, Node, Webpack, Contentful, Cypress, Jest, React Testing
 				Library, Prisma, Supabase, Buildkite, Datadog, Storybook, Wagtail, Django, Flask, Python,
-				Vercel, Docker, AWS
+				Vercel, Docker, AWS, GCP
 			</p>
 			<h3>Leadership strengths</h3>
 			<p>
 				Team vision crafting, OKR setting, building alignment, team effectiveness, developer
-				experience
+				experience, CI/CD, SLO/SLA
 			</p>
 			<h3>Extracurriculars</h3>
 			<h4>Conferences/Festivals</h4>
@@ -316,6 +317,17 @@
 		</section>
 		<section class="projects">
 			<h2>Projects</h2>
+			<h3><a href="https://intentional-jobsearch.vercel.app/">Job board watcher</a></h3>
+			<p>
+				An in-progress (H1 2024) project to help surface and keep track of new jobs at companies
+				you're interested in shortly after they go live.
+			</p>
+
+			<h3><a href="https://github.com/alanmoo/vesta-weather">Vestaweather</a></h3>
+			<p>
+				A weather app for the <a href="https://vestaboard.com">Vestaboard</a>.
+				<a href="https://github.com/alanmoo/vesta-weather">Source code</a>,
+			</p>
 		</section>
 		<!--
 		<section>
