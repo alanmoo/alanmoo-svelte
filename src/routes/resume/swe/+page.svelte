@@ -326,7 +326,7 @@
 			<h3><a href="https://github.com/alanmoo/vesta-weather">Vestaweather</a></h3>
 			<p>
 				A weather app for the <a href="https://vestaboard.com">Vestaboard</a>.
-				<a href="https://github.com/alanmoo/vesta-weather">Source code</a>,
+				<a href="https://github.com/alanmoo/vesta-weather">Source code</a>
 			</p>
 		</section>
 		<!--
