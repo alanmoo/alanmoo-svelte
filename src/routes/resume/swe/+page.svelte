@@ -112,7 +112,7 @@
 						<li>Front-end platform/component library (cross-team initiative)</li>
 					</ul>
 				</div>
-				<h5>Team effectiveness</h5>
+				<h5>Team contributions</h5>
 				<ul>
 					<li>Established Content team technical vision and quarterly OKRs for each team</li>
 					<li>
@@ -507,14 +507,17 @@
 		margin: 0 auto;
 		max-width: 110ch;
 	}
+	.resume_item {
+		break-inside: avoid;
+	}
 	.content {
 		display: grid;
 		grid-template-areas: 'jobs jobs jobs meta';
-		gap: 2em;
+		gap: 1em 2em;
 	}
 	.metadata {
 		grid-area: meta;
-		max-width: 40ch;
+		max-width: 38ch;
 	}
 	.roles {
 		grid-area: jobs;
@@ -588,6 +591,7 @@
 
 		h2 {
 			font-size: 1.33em;
+			margin-top: 0;
 		}
 		h3 {
 			font-size: 1.25em;
@@ -595,6 +599,9 @@
 		.show-print {
 			display: block;
 			float: right;
+		}
+		section:last-child {
+			margin-bottom: 0;
 		}
 	}
 </style>
