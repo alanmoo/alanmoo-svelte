@@ -60,23 +60,23 @@
 				devOps-oriented culture
 			</p>
 
-			<h3>Ideal role</h3>
+			<h2>Ideal role</h2>
 			<p>Hybrid in NYC, open to remote.</p>
 			<p>Engineering Manager or Director</p>
 
-			<h3>Leadership strengths</h3>
+			<h2>Leadership strengths</h2>
 			<p>
 				Team vision crafting, OKR setting, building alignment, team effectiveness, developer
 				efficiency (DevEx)
 			</p>
-			<h3>Tech strengths</h3>
+			<h2>Tech strengths</h2>
 			<p>
 				HTML, CSS, Javascript, web performance (Core Web Vitals, Lighthouse), React, Svelte, Gatsby,
 				Next.js, GraphQL, Typescript, Node, Webpack, Contentful, Cypress, Jest, Buildkite, Datadog,
 				Storybook, Wagtail, Django, Flask, Python, Vercel, Docker, AWS
 			</p>
-			<h3>Extracurriculars</h3>
-			<h4>Conferences/Festivals</h4>
+			<h2>Extracurriculars</h2>
+			<h3>Conferences/Festivals</h3>
 			<ul>
 				<li><a href="https://cascadiajs.com/">CascadiaJS</a> (2015 speaker)</li>
 				<li><a href="https://xoxofest.com/">XOXO Festival</a> (2016, 2018, 2019)</li>
@@ -88,6 +88,18 @@
 			</p>
 			<p><a href="https://ohny.org">Open House New York</a> member/volunteer since 2019</p>
 			<p>Learning Danish just because I'm commited to a bit</p>
+			<h2>Personal Projects</h2>
+			<h3><a href="https://intentional-jobsearch.vercel.app/">Job board watcher</a></h3>
+			<p>
+				An in-progress (H1 2024) project to help surface and keep track of new jobs at companies
+				you're interested in shortly after they go live.
+			</p>
+
+			<h3><a href="https://github.com/alanmoo/vesta-weather">Vestaweather</a></h3>
+			<p>
+				A weather app for the <a href="https://vestaboard.com">Vestaboard</a>.
+				<a href="https://github.com/alanmoo/vesta-weather">Source code</a>
+			</p>
 		</section>
 		<section class="roles">
 			<h2>Work Experience</h2>
@@ -507,14 +519,21 @@
 		margin: 0 auto;
 		max-width: 110ch;
 	}
+	.resume_item {
+		break-inside: avoid;
+	}
 	.content {
-		display: grid;
-		grid-template-areas: 'jobs jobs jobs meta';
-		gap: 2em;
+		gap: 1em 2em;
+	}
+	@media (min-width: 600px) {
+		.content {
+			display: grid;
+			grid-template-areas: 'jobs jobs jobs meta';
+			grid-template-columns: 1fr 1fr 1fr minmax(300px, 1fr);
+		}
 	}
 	.metadata {
 		grid-area: meta;
-		max-width: 40ch;
 	}
 	.roles {
 		grid-area: jobs;
@@ -563,6 +582,10 @@
 	section > h2 {
 		margin-bottom: 0;
 	}
+
+	h4:has(+ ul) {
+		margin-bottom: 0;
+	}
 	h5 {
 		font-size: 1em;
 		font-weight: bold;
@@ -570,6 +593,7 @@
 	}
 	ul {
 		margin: 0.5em 0;
+		padding-left: 1em;
 	}
 	ul ul {
 		margin: 0;
@@ -588,6 +612,7 @@
 
 		h2 {
 			font-size: 1.33em;
+			margin-top: 0;
 		}
 		h3 {
 			font-size: 1.25em;
@@ -595,6 +620,18 @@
 		.show-print {
 			display: block;
 			float: right;
+		}
+		section:last-child {
+			margin-bottom: 0;
+		}
+		.content {
+			grid-template-areas: 'jobs jobs jobs meta';
+			grid-template-columns: 1fr 1fr 1fr 230px;
+		}
+		summary::marker {
+			display: none;
+			visibility: hidden;
+			content: '';
 		}
 	}
 </style>
