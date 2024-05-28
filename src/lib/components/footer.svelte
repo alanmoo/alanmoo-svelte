@@ -122,6 +122,11 @@
 		align-items: center;
 		margin: 2rem auto 0;
 	}
+	@media print {
+		footer {
+			display: none;
+		}
+	}
 
 	footer a:any-link,
 	footer a:-webkit-any-link {
