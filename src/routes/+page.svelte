@@ -51,11 +51,6 @@
 			Inclined to ship and iterate rather than let perfect be the enemy of good (see: this site
 			design)
 		</li>
-		<li>
-			Looking for my next role! After an intentional break from work for a few months, I'm open to
-			starting something new in the software engineering leadership space. Got something
-			interesting? <a href="https://linkedin.com/in/amooiman">Let's connect</a>
-		</li>
 	</ul>
 </div>
 
