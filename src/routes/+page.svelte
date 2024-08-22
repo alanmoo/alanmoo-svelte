@@ -2,6 +2,12 @@
 	import JobCard from '../lib/components/jobCard.svelte';
 	let experiences = [
 		{
+			company: 'Carta',
+			title: 'Senior Engineering Manager',
+			tenure: '2024-present',
+			description: 'Leading the team building the public Carta.com site'
+		},
+		{
 			company: 'Policygenius',
 			title: 'Engineering Manager ➡ Senior Engineering Manager',
 			tenure: '2021-2023',
