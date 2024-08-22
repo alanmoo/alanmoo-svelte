@@ -106,6 +106,22 @@
 			<details open class="resume_item">
 				<summary>
 					<div class="summary">
+						<h3 class="organization" id="Carta">
+							<a href="https://www.carta.com">Carta</a>,
+							<span class="job_title">Senior Engineering Manager</span>
+						</h3>
+						<span class="role_dates">July 2024-present</span>
+					</div>
+				</summary>
+				<div class="company_size">Series G</div>
+				<div class="team_size">
+					<h5>Teams Lead (simultaneously)</h5>
+					<p>Leading the team responsible for the public Carta.com content and marketing site</p>
+				</div>
+			</details>
+			<details open class="resume_item">
+				<summary>
+					<div class="summary">
 						<h3 class="organization" id="Policygenius">
 							<a href="https://www.policygenius.com">Policygenius</a>,
 							<span class="job_title">Senior Engineering Manager</span>
