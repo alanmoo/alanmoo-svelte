@@ -89,7 +89,7 @@
 			<p><a href="https://ohny.org">Open House New York</a> member/volunteer since 2019</p>
 			<p>Learning Danish just because I'm commited to a bit</p>
 			<h2>Personal Projects</h2>
-			<h3><a href="https://intentional-jobsearch.vercel.app/">Job board watcher</a></h3>
+			<h3><a href="https://lassojobs.lol/">Lasso Jobs</a></h3>
 			<p>
 				An in-progress (H1 2024) project to help surface and keep track of new jobs at companies
 				you're interested in shortly after they go live.

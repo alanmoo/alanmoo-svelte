@@ -57,8 +57,8 @@
 <section>
 	<h2>Projects</h2>
 	<div class="card-wrapper">
-		<a class="card" href="https://intentional-jobsearch.vercel.app/?src=alanmooiman.com">
-			<h3>Intentional Jobsearch App</h3>
+		<a class="card" href="https://lassojobs.lol?src=alanmooiman.com">
+			<h3>Lasso Jobs</h3>
 			<p>
 				An in-development app that I'm building to help people who are trying to be intentional
 				about their next career move
