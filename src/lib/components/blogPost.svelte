@@ -1,18 +1,18 @@
 <script lang="ts">
 	import type { Post } from './types';
-	export let data: Post;
+	export let data;
 	let date = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', dateStyle: 'medium' }).format(
-		new Date(data.meta.date)
+		new Date(data.date)
 	);
 </script>
 
 <li class="blog-post">
 	<h2>
-		<a href={data.path}>
-			{data.meta.title}
+		<a href="blog/{data.slug}">
+			{data.title}
 		</a>
 	</h2>
-	<p class="post-summary">{data.meta.summary}</p>
+	<p class="post-summary">{data.summary}</p>
 </li>
 
 <style>
