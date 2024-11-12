@@ -1,5 +1,7 @@
 import { error } from '@sveltejs/kit'
 import contentfulFetch from '$lib/utils/contentful-fetch'
+import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
+
 
 
 export async function load({ params }) {
@@ -26,10 +28,10 @@ export async function load({ params }) {
 
   const { data } = await response.json()
   const { items } = data.blogEntryCollection
-
+  const renderedContent = documentToHtmlString(items[0].content.json)
   return {
     title: items[0].title,
     date: items[0].date,
-    content: items[0].content,
+    renderedContent: renderedContent,
   }
 }
