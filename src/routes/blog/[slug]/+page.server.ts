@@ -4,10 +4,11 @@ import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 
 
 
-export async function load({ params }) {
+export async function load({ params, url }) {
+
   const query = `
 {
-  blogEntryCollection(where:{slug:"${params.slug}"}){
+  blogEntryCollection(where:{slug:"${params.slug}"} preview: ${url.searchParams.get('preview_token') ? true : false}){
   items{
     title
     date
@@ -18,7 +19,7 @@ export async function load({ params }) {
   }
 }
 `
-  const response = await contentfulFetch(query)
+  const response = await contentfulFetch(query, url.searchParams.get('preview_token') || undefined)
 
   if (!response.ok) {
     throw error(404, {

@@ -27,12 +27,12 @@ export async function load() {
   const { items } = data.blogEntryCollection
 
   return {
-    blogPosts: items.map((e) => {
+    blogPosts: items.map((post) => {
       return {
-        title: e.title,
-        slug: e.slug,
-        date: e.date,
-        summary: e.summary,
+        title: post.title,
+        slug: post.slug,
+        date: post.date,
+        summary: post.summary,
 
       }
     }),
