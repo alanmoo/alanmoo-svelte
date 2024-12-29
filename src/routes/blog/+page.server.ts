@@ -25,7 +25,7 @@ export async function load() {
 
   const { data } = await response.json()
   const { items } = data.blogEntryCollection
-  console.log(items)
+
   return {
     blogPosts: items.sort((a, b) => {
       return new Date(b.date).getTime() - new Date(a.date).getTime();

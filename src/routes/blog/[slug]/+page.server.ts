@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit'
 import contentfulFetch from '$lib/utils/contentful-fetch'
 
+export const prerender = false;
 
 export async function load({ params, url }) {
 
