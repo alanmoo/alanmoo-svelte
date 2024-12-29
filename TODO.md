@@ -1,0 +1,3 @@
+- Add ability to preview from Contentful
+- Find an alternative to rendering content as unsafe HTML via `@contentful/rich-text-html-renderer`
+- Get syntax highlighting back for code samples

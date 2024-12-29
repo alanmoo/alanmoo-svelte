@@ -8,7 +8,7 @@
       {data.title}
     </a>
   </h2>
-  <p class="post-summary">{data.summary}</p>
+  <p class="post-summary">{data.summary || ""}</p>
 </li>
 
 <style>
