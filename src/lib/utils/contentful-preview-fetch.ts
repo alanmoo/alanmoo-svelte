@@ -1,6 +1,8 @@
-const contentfulPreviewFetch = async (query: string, token: string) => {
-  const url = 'https://graphql.contentful.com/content/v1/spaces/' + `v5487e8hadqf`
+import { error } from '@sveltejs/kit'
+import { PUBLIC_CONTENTFUL_SPACE_ID } from '$env/static/public'
 
+const contentfulPreviewFetch = async (query: string, token: string) => {
+  const url = 'https://graphql.contentful.com/content/v1/spaces/' + PUBLIC_CONTENTFUL_SPACE_ID
   const response = await fetch(url, {
     method: 'POST',
     headers: {
@@ -10,7 +12,15 @@ const contentfulPreviewFetch = async (query: string, token: string) => {
     body: JSON.stringify({ query }),
   })
 
-  return response
+  if (!response.ok) {
+    throw error(404, {
+      message: response.statusText,
+    })
+  }
+  const json = await response.json()
+  console.log(token)
+  console.log('json', json)
+  return json;
 }
 
 export default contentfulPreviewFetch

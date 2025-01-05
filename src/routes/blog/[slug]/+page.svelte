@@ -1,23 +1,30 @@
 <script lang="ts">
-  // import contentfulPreviewFetch from "$lib/utils/contentful-preview-fetch.js";
   import { ContentfulLivePreview } from "@contentful/live-preview";
   import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
   import SvelteMarkdown from "svelte-markdown";
+  import contentfulPreviewFetch from "$lib/utils/contentful-preview-fetch";
+  import { blogQuery } from "./blogQuery";
 
   import { onMount } from "svelte";
   import { page } from "$app/stores";
+  import { parseBlog } from "./parseData";
 
   export let data;
-  export let { title, date, articleId, unrenderedRichText, markdown } = data;
-  // let previewData = null;
+  $: ({ title, date, articleId, unrenderedRichText, markdown } = data);
   let dateFormat = new Intl.DateTimeFormat("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
   });
   onMount(async () => {
-    if ($page.url.searchParams.get("preview")) {
+    const previewToken = $page.url.searchParams.get("preview_token");
+    if (previewToken) {
       ContentfulLivePreview.init({ locale: "en-US" });
+      const previewData = await contentfulPreviewFetch(
+        blogQuery($page.params.slug, true),
+        previewToken,
+      );
+      data = parseBlog(previewData.data);
     }
   });
 </script>
