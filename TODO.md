@@ -1,3 +1,5 @@
-- Add ability to preview from Contentful
+- ~~Add ability to preview from Contentful~~
 - Find an alternative to rendering content as unsafe HTML via `@contentful/rich-text-html-renderer`
 - Get syntax highlighting back for code samples, like they were before 2024/12/29
+- Ensure unpublished pages can be previewed
+- Add support for .gql files

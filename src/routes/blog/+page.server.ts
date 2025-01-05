@@ -1,5 +1,6 @@
-import { error } from '@sveltejs/kit'
 import contentfulFetch from '$lib/utils/contentful-fetch'
+
+export const prerender = true;
 
 const query = `
 {
@@ -15,17 +16,8 @@ const query = `
 `
 
 export async function load() {
-  const response = await contentfulFetch(query)
-
-  if (!response.ok) {
-    throw error(404, {
-      message: response.statusText,
-    })
-  }
-
-  const { data } = await response.json()
+  const { data } = await contentfulFetch(query)
   const { items } = data.blogEntryCollection
-
   return {
     blogPosts: items.sort((a, b) => {
       return new Date(b.date).getTime() - new Date(a.date).getTime();
