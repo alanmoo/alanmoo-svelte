@@ -18,8 +18,6 @@ const contentfulPreviewFetch = async (query: string, token: string) => {
     })
   }
   const json = await response.json()
-  console.log(token)
-  console.log('json', json)
   return json;
 }
 
