@@ -1,22 +1,10 @@
 import contentfulFetch from '$lib/utils/contentful-fetch'
+import blogPostsQuery from '../../queries/blogPostsQuery';
 
 export const prerender = true;
 
-const query = `
-{
-  blogEntryCollection{
-    items{
-      title
-      slug
-      date
-      summary
-    }
-  }
-}
-`
-
 export async function load() {
-  const { data } = await contentfulFetch(query)
+  const { data } = await contentfulFetch(blogPostsQuery)
   const { items } = data.blogEntryCollection
   return {
     blogPosts: items.sort((a, b) => {
