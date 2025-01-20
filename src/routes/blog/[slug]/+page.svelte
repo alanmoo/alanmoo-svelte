@@ -1,58 +1,66 @@
 <script lang="ts">
-  import { ContentfulLivePreview } from "@contentful/live-preview";
   import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
   import SvelteMarkdown from "svelte-markdown";
-  import contentfulPreviewFetch from "$lib/utils/contentful-preview-fetch";
   import { blogQuery } from "./blogQuery";
-
   import { onMount } from "svelte";
   import { page } from "$app/stores";
-  import { parseBlog } from "./parseData";
 
   export let data;
-  $: ({ title, date, articleId, unrenderedRichText, markdown } = data);
+  $: ({ title, date, unrenderedRichText, markdown } =
+    data.blogEntryCollection.items[0]);
+  $: articleId = data.blogEntryCollection.items[0].sys.id;
   let dateFormat = new Intl.DateTimeFormat("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
   });
+  let ContentfulLivePreview: any;
+
+  const getContentfulProps = (fieldId: string) => {
+    if (typeof ContentfulLivePreview !== "undefined") {
+      return ContentfulLivePreview.getProps({
+        entryId: articleId,
+        fieldId,
+      });
+    }
+    return {};
+  };
+
   onMount(async () => {
     const previewToken = $page.url.searchParams.get("preview_token");
     if (previewToken) {
-      ContentfulLivePreview.init({ locale: "en-US" });
+      const contentfulPreviewFetch = (
+        await import("$lib/utils/contentful-preview-fetch")
+      ).default;
+      ContentfulLivePreview = (await import("@contentful/live-preview"))
+        .ContentfulLivePreview;
+      const locale = "en-US";
+      ContentfulLivePreview.init({ locale, enableLiveUpdates: true });
       const previewData = await contentfulPreviewFetch(
         blogQuery($page.params.slug, true),
         previewToken,
       );
-      data = parseBlog(previewData.data);
+      data = previewData.data;
+      ContentfulLivePreview.subscribe({
+        data,
+        locale,
+        callback: (newData) => {
+          data = newData;
+        },
+      });
     }
   });
 </script>
 
 <article data-contentful-asset-id={articleId}>
-  <h1
-    {...ContentfulLivePreview.getProps({
-      entryId: articleId,
-      fieldId: "title",
-    })}
-  >
+  <h1 {...getContentfulProps("title")}>
     {title}
   </h1>
-  <p
-    {...ContentfulLivePreview.getProps({
-      entryId: articleId,
-      fieldId: "date",
-    })}
-  >
+  <p {...getContentfulProps("date")}>
     {dateFormat.format(new Date(date))}
   </p>
   {@html documentToHtmlString(unrenderedRichText)}
-  <div
-    {...ContentfulLivePreview.getProps({
-      entryId: articleId,
-      fieldId: "markdown",
-    })}
-  >
+  <div {...getContentfulProps("markdown")}>
     <SvelteMarkdown source={markdown} />
   </div>
 </article>

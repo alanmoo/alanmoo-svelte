@@ -3,7 +3,9 @@ export const blogQuery = function (slug: string, preview: boolean = false) {
   return `
   {
   blogEntryCollection(where:{slug:"${slug}"} preview: ${preview}){
+  __typename
   items{
+  __typename
     sys{
      id
     }
