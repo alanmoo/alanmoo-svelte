@@ -16,7 +16,7 @@
   });
   let ContentfulLivePreview: any;
 
-  const getContentfulProps = (fieldId: string) => {
+  $: getContentfulProps = (fieldId: string) => {
     if (typeof ContentfulLivePreview !== "undefined") {
       return ContentfulLivePreview.getProps({
         entryId: articleId,
