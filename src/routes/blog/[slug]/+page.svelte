@@ -7,7 +7,7 @@
 
   export let data;
   $: ({ title, date, unrenderedRichText, markdown } =
-    data.blogEntryCollection.items[0]);
+    data.blogEntryCollection.items[0] || "");
   $: articleId = data.blogEntryCollection.items[0].sys.id;
   let dateFormat = new Intl.DateTimeFormat("en-US", {
     year: "numeric",
@@ -59,6 +59,7 @@
   <p {...getContentfulProps("date")}>
     {dateFormat.format(new Date(date))}
   </p>
+  {unrenderedRichText}
   {@html documentToHtmlString(unrenderedRichText)}
   <div {...getContentfulProps("markdown")}>
     <SvelteMarkdown source={markdown} />

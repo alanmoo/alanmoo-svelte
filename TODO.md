@@ -3,3 +3,4 @@
 - Get syntax highlighting back for code samples, like they were before 2024/12/29
 - Ensure unpublished pages can be previewed
 - Add support for .gql files
+- Webmentions
