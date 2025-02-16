@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2015-07-08
-title: 'Cascadia JS conferences talk'
+title: "Cascadia JS conference talk"
 ---
 
 <div class="video-container">
