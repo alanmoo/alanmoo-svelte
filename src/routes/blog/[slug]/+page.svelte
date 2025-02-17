@@ -59,7 +59,6 @@
   <p {...getContentfulProps("date")}>
     {dateFormat.format(new Date(date))}
   </p>
-  {unrenderedRichText}
   {@html documentToHtmlString(unrenderedRichText)}
   <div {...getContentfulProps("markdown")}>
     <SvelteMarkdown source={markdown} />
