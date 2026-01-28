@@ -65,10 +65,10 @@
         Focused on leading teams to solve problems for the business via a
         generative, devOps-oriented culture
       </p>
-
+      <!-- 
       <h2>Ideal role</h2>
       <p>Hybrid in NYC, open to remote.</p>
-      <p>Engineering Manager or Director</p>
+      <p>Engineering Manager or Director</p> -->
 
       <h2>Leadership strengths</h2>
       <p>
@@ -83,15 +83,13 @@
         Django, Flask, Python, Vercel, Docker, AWS
       </p>
       <h2>Extracurriculars</h2>
-      <h3>Conferences/Festivals</h3>
-      <ul>
-        <li><a href="https://cascadiajs.com/">CascadiaJS</a> (2015 speaker)</li>
-        <li>
-          <a href="https://xoxofest.com/">XOXO Festival</a> (2016, 2018, 2019, 2024)
-        </li>
-        <li><a href="https://perfnow.nl/">Performance.now</a> (2023, 2024)</li>
-        <li><a href="https://leaddev.com/">Lead Dev</a> (2019, 2023)</li>
-      </ul>
+      <h3>Community</h3>
+      <p>
+        Member of Brooklyn <a
+          href="https://www.brooklyncb8.org/"
+          target="_blank">CB8</a
+        > Environment, Sanitation, and Transportation Committee
+      </p>
       <p>
         <a href="https://transalt.org/">Transportation Alternatives</a> member/activist
         since 2022
@@ -101,6 +99,15 @@
         2019
       </p>
       <p>2+ year Duolingo Danish streak just because I'm commited to a bit</p>
+      <h3>Conferences/Festivals</h3>
+      <ul>
+        <li><a href="https://cascadiajs.com/">CascadiaJS</a> (2015 speaker)</li>
+        <li>
+          <a href="https://xoxofest.com/">XOXO Festival</a> (2016, 2018, 2019, 2024)
+        </li>
+        <li><a href="https://perfnow.nl/">Performance.now</a> (2023, 2024)</li>
+        <li><a href="https://leaddev.com/">Lead Dev</a> (2019, 2023)</li>
+      </ul>
       <h2>Personal Projects</h2>
       <h3><a href="https://lassojobs.lol/">Lasso Jobs</a></h3>
       <p>
