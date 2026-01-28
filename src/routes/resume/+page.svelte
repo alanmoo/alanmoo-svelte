@@ -54,11 +54,11 @@
     <section class="metadata">
       <h2>TL;DR</h2>
       <p>
-        <span id="industryTime">12+ years</span> in software engineering, primarily
+        <span id="industryTime">14+ years</span> in software engineering, primarily
         focused on UI and web
       </p>
       <p>
-        <span id="managementTime">7+ years</span> of engineering leadership
+        <span id="managementTime">8+ years</span> of engineering leadership
       </p>
       <p>A proponent of leveraging the core web platform whenever possible</p>
       <p>
@@ -121,22 +121,42 @@
       <details open class="resume_item">
         <summary>
           <div class="summary">
+            <h3 class="organization" id="Mercury">
+              <a href="https://www.mercury.com">Mercury</a>,
+              <span class="job_title">Engineering Manager</span>
+            </h3>
+            <span class="role_dates">March 2025 - Present</span>
+          </div>
+        </summary>
+        <div class="company_size">Series C</div>
+        <div class="team_size">
+          <p>
+            I lead the top of funnel growth engineering team, responsible for
+            our marketing site leveraging a headless CMS (Dato) and Next.js
+            front-end, as well as growth related infrastructure like referrals
+            and deals.
+          </p>
+        </div>
+      </details>
+      <details open class="resume_item">
+        <summary>
+          <div class="summary">
             <h3 class="organization" id="Carta">
               <a href="https://www.carta.com">Carta</a>,
               <span class="job_title">Senior Engineering Manager</span>
             </h3>
-            <span class="role_dates">July 2024-present</span>
+            <span class="role_dates">July 2024-March 2025</span>
           </div>
         </summary>
         <div class="company_size">Series G</div>
         <div class="team_size">
           <h5>Team</h5>
           <p>
-            I lead the web presence engineering team as the most senior engineer
-            in my reporting chain. This team is responsible for the public
+            I led the web presence engineering team as the most senior engineer
+            in my reporting chain. This team was responsible for the public
             Carta.com content and marketing site. When I joined, it was saddled
-            with technical debt. With a team of one FTE and one contractor, I've
-            been very hands-on, acting as architect and individual contributor,
+            with technical debt. With a team of one FTE and one contractor, I
+            was very hands-on, acting as architect and individual contributor,
             aiming to productize the platform for better self-serve by internal
             stakeholders while making the case for more resources.
           </p>
