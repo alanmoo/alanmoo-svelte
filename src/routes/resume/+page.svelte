@@ -39,9 +39,9 @@
     </span>
     <p>
       I am a product-minded engineering leader who has spent my career building
-      the web engineering behind marketing, brand, and content surfaces —
-      passionate about user experience, performance, and accessibility. I
-      operate with a heavy focus on team effectiveness, partnering with product
+      the web engineering behind marketing, brand, and content surfaces with a
+      passion for user experience, performance, and accessibility. I operate
+      with a heavy focus on team effectiveness, partnering with product
       stakeholders to build systems and goals that reduce technical debt while
       continually delivering improvements for the business. As a result of
       working on distributed teams for a decade, I constantly advocate for
