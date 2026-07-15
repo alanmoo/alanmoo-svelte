@@ -98,7 +98,7 @@
         <a href="https://ohny.org">Open House New York</a> member/volunteer since
         2019
       </p>
-      <p>2+ year Duolingo Danish streak just because I'm commited to a bit</p>
+      <p>3+ year Duolingo Danish streak just because I'm commited to a bit</p>
       <h3>Conferences/Festivals</h3>
       <ul>
         <li><a href="https://cascadiajs.com/">CascadiaJS</a> (2015 speaker)</li>
@@ -109,12 +109,13 @@
         <li><a href="https://leaddev.com/">Lead Dev</a> (2019, 2023)</li>
       </ul>
       <h2>Personal Projects</h2>
-      <h3><a href="https://lassojobs.lol/">Lasso Jobs</a></h3>
+      <h3><a href="https://www.streetstate.nyc/">Street State</a></h3>
       <p>
-        An in-progress (H1 2024) project to help surface and keep track of new
-        jobs at companies you're interested in shortly after they go live.
+        A vibe coded tool meant mainly as a data capture mechanism to track what
+        kind of vehicles are parked on the streets (or in the bike lanes) of New
+        York City, as a mechanism for continuing conversation at community board
+        meetings.
       </p>
-
       <h3>
         <a href="https://github.com/alanmoo/vesta-weather">Vestaweather</a>
       </h3>
@@ -135,15 +136,44 @@
             <span class="role_dates">March 2025 - Present</span>
           </div>
         </summary>
-        <div class="company_size">Series C</div>
+        <div class="company_size">Series C, D</div>
         <div class="team_size">
+          <h5>Teams</h5>
+          <ul>
+            <li>Top of Funnel (marketing site + growth infrastructure)</li>
+            <li>Virality (network-driven growth)</li>
+          </ul>
           <p>
-            I lead the top of funnel growth engineering team, responsible for
-            our marketing site leveraging a headless CMS (Dato) and Next.js
-            front-end, as well as growth related infrastructure like referrals
-            and deals.
+            I directly lead two product growth engineering teams, with 11+
+            reports. Top of Funnel owns Mercury's web presence at mercury.com —
+            built on a headless CMS (Dato) and a Next.js front-end — along with
+            growth infrastructure like channel attribution, deals, and
+            referrals. Virality is responsible for network-driven growth: cross
+            sell of products and sender/recipient growth vectors. We work
+            closely with a variety of stakeholders including PMM, Partnerships,
+            and Legal.
           </p>
         </div>
+        <h5>Ownership &amp; impact</h5>
+        <ul>
+          <li>
+            Own a broad set of tooling — CMS, marketing site architecture,
+            marketing site design system, partnership admin dashboard, consent
+            management, and the attribution pipeline — leading the team to build
+            for what we need now while improving the platform's long-term
+            capabilities
+          </li>
+          <li>
+            Expand self-service capabilities for internal stakeholders,
+            especially in a world where teams can leverage AI to make changes or
+            prototype new pages that would previously have required engineering
+            time
+          </li>
+          <li>
+            Support both product led growth and marketing/brand initiatives,
+            with some compliance support thrown in
+          </li>
+        </ul>
       </details>
       <details open class="resume_item">
         <summary>
@@ -160,12 +190,13 @@
           <h5>Team</h5>
           <p>
             I led the web presence engineering team as the most senior engineer
-            in my reporting chain. This team was responsible for the public
-            Carta.com content and marketing site. When I joined, it was saddled
-            with technical debt. With a team of one FTE and one contractor, I
-            was very hands-on, acting as architect and individual contributor,
-            aiming to productize the platform for better self-serve by internal
-            stakeholders while making the case for more resources.
+            in my reporting chain. This team, in the marketing department, was
+            responsible for the public Carta.com content and marketing site.
+            When I joined, it was saddled with technical debt. With a team of
+            one FTE and one contractor, I was very hands-on, acting as architect
+            and individual contributor, aiming to productize the platform for
+            better self-serve by internal stakeholders while making the case for
+            more resources.
           </p>
           <h5>Overview</h5>
           <p>
@@ -199,7 +230,12 @@
               Removed intricate custom router logic that hindered performance
               optimizations and blocked new feature development
             </li>
+            <li>Supported localized content strategy</li>
           </ul>
+          <div class="tech_stack">
+            Svelte, SvelteKit, Contentful, TypeScript, Cypress, marketing tech
+            tooling
+          </div>
         </div>
       </details>
       <details open class="resume_item">
@@ -216,7 +252,7 @@
           Series D > E > Acquired by <a href="https://zinnia.com">Zinnia</a>
         </div>
         <div class="team_size">
-          <h5>Teams Lead (simultaneously)</h5>
+          <h5>Teams (concurrent)</h5>
           <ul>
             <li>Content/Lead Generation (4 engineers)</li>
             <li>Life Insurance Growth (5 engineers)</li>
@@ -344,7 +380,7 @@
           </div>
         </summary>
         <div class="team_size">
-          <h5>Teams</h5>
+          <h5>Teams (concurrent)</h5>
           <ul>
             <li>Product (5 engineers)</li>
             <li>Platform (2 engineers)</li>
@@ -429,17 +465,23 @@
           </li>
         </ul>
       </details>
-      <summary>
-        <div class="summary">
-          <h3 class="organization">
-            <a href="https://weill.cornell.edu/"
-              >Weill Cornell Medical College</a
-            >,
-            <span class="job_title">UI Designer/Developer</span>
-          </h3>
-          <span class="role_dates">February 2012 - October 2013</span>
-        </div>
-      </summary>
+      <details>
+        <summary>
+          <div class="summary">
+            <h3 class="organization">
+              <a href="https://weill.cornell.edu/"
+                >Weill Cornell Medical College</a
+              >,
+              <span class="job_title">UI Designer/Developer</span>
+            </h3>
+            <span class="role_dates">February 2012 - October 2013</span>
+          </div>
+        </summary>
+        <p>
+          Worked on various UI design and development projects for the medical
+          college.
+        </p>
+      </details>
       <!-- <div class="resume_item">
       <h3 class="job_title">Desktop Support Assistant</h3>
       <span class="organization">Weill Cornell Medical College - <span class="location">New York City</span></span>
