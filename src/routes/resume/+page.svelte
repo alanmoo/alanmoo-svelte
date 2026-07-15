@@ -38,16 +38,18 @@
       >
     </span>
     <p>
-      I am a product-minded engineering leader passionate about user experience,
-      performance, and accessibility. I operate with a heavy focus on team
-      effectiveness, partnering with product stakeholders to build systems and
-      goals that reduce technical debt while continually delivering improvements
-      for the business. As a result of working on distributed teams for a
-      decade, I constantly advocate for improvements in organizational
-      communication through synchronous and asynchronous channels. I leverage
-      these improvements to create alignment and build support for the most
-      impactful technical metrics to watch when building our solutions within
-      the team and across the broader organization.
+      I am a product-minded engineering leader who has spent my career building
+      the web engineering behind marketing, brand, and content surfaces —
+      passionate about user experience, performance, and accessibility. I
+      operate with a heavy focus on team effectiveness, partnering with product
+      stakeholders to build systems and goals that reduce technical debt while
+      continually delivering improvements for the business. As a result of
+      working on distributed teams for a decade, I constantly advocate for
+      improvements in organizational communication through synchronous and
+      asynchronous channels. I leverage these improvements to create alignment
+      and build support for the most impactful technical metrics to watch when
+      building our solutions within the team and across the broader
+      organization.
     </p>
   </header>
   <div class="content">
@@ -98,7 +100,7 @@
         <a href="https://ohny.org">Open House New York</a> member/volunteer since
         2019
       </p>
-      <p>3+ year Duolingo Danish streak just because I'm commited to a bit</p>
+      <p>3+ year Duolingo Danish streak just because I'm committed to a bit</p>
       <h3>Conferences/Festivals</h3>
       <ul>
         <li><a href="https://cascadiajs.com/">CascadiaJS</a> (2015 speaker)</li>
@@ -138,7 +140,7 @@
         </summary>
         <div class="company_size">Series C, D</div>
         <div class="team_size">
-          <h5>Teams</h5>
+          <h5>Teams (concurrent)</h5>
           <ul>
             <li>Top of Funnel (marketing site + growth infrastructure)</li>
             <li>Virality (network-driven growth)</li>
@@ -174,6 +176,10 @@
             with some compliance support thrown in
           </li>
         </ul>
+        <div class="tech_stack">
+          Next.js, React, TypeScript, Dato (headless CMS), marketing tech
+          tooling
+        </div>
       </details>
       <details open class="resume_item">
         <summary>
@@ -203,7 +209,7 @@
             My first 6 months were spent understanding where we were, designing
             a vision of where we should go, and performing technical cleanups
             that were holding us back from getting there. I led the team and
-            worked side-by-side to acheive the following:
+            worked side-by-side to achieve the following:
           </p>
           <ul>
             <li>
@@ -302,7 +308,7 @@
             day rather than three
             <ul>
               <li>
-                Lighthouse scores (a signal used for search enginge ranking)
+                Lighthouse scores (a signal used for search engine ranking)
                 moved from 40's to 80's
               </li>
               <li>Total Blocking Time on the content site reduced by 50%</li>
@@ -380,7 +386,7 @@
           </div>
         </summary>
         <div class="team_size">
-          <h5>Teams (concurrent)</h5>
+          <h5>Teams</h5>
           <ul>
             <li>Product (5 engineers)</li>
             <li>Platform (2 engineers)</li>
@@ -395,8 +401,8 @@
           <li>
             Recognized significant disconnect between capabilities of the
             organization's CMS and what was needed from it; After building
-            support to move to an alternativem, I led the project in a
-            successful migration to a platform that is still used today.
+            support to move to an alternative, I led the project in a successful
+            migration to a platform that is still used today.
           </li>
           <li>
             Led the team's development of <a
