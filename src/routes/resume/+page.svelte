@@ -23,7 +23,7 @@
 <div class="resume">
   <div class="show-print">
     <small
-      >Printed/PDF'ed from <a href="http://alanmooiman.com/resume"
+      >See all details at <a href="http://alanmooiman.com/resume"
         >alanmooiman.com/resume</a
       ></small
     >
@@ -799,9 +799,17 @@
     section:last-child {
       margin-bottom: 0;
     }
+
     .content {
-      grid-template-areas: "jobs jobs jobs meta";
-      grid-template-columns: 1fr 1fr 1fr 230px;
+      display: block;
+    }
+    .roles {
+      max-width: unset;
+    }
+    .content .metadata {
+      float: right;
+      width: 30%;
+      margin-left: 3em;
     }
     summary::marker {
       display: none;
