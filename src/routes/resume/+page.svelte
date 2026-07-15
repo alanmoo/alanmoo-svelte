@@ -80,7 +80,7 @@
       <h2>Tech strengths</h2>
       <p>
         HTML, CSS, Javascript, web performance (Core Web Vitals, Lighthouse),
-        React, Svelte, Gatsby, Next.js, GraphQL, Typescript, Node, Webpack,
+        React, Svelte, Gatsby, Next.js, GraphQL, TypeScript, Node, Webpack,
         Contentful, Cypress, Jest, Buildkite, Datadog, Storybook, Wagtail,
         Django, Flask, Python, Vercel, Docker, AWS
       </p>
@@ -138,7 +138,7 @@
             <span class="role_dates">March 2025 - Present</span>
           </div>
         </summary>
-        <div class="company_size">Series C, D</div>
+        <div class="company_size">Series C > D</div>
         <div class="team_size">
           <h5>Teams (concurrent)</h5>
           <ul>
@@ -172,13 +172,12 @@
             time
           </li>
           <li>
-            Support both product led growth and marketing/brand initiatives,
+            Support both product-led growth and marketing/brand initiatives,
             with some compliance support thrown in
           </li>
         </ul>
         <div class="tech_stack">
-          Next.js, React, TypeScript, Dato (headless CMS), marketing tech
-          tooling
+          Next.js, React, TypeScript, DatoCMS, marketing tech tooling
         </div>
       </details>
       <details open class="resume_item">
@@ -222,7 +221,7 @@
               regression risk) is identified
             </li>
             <li>
-              Enabled Typescript, eliminated 705 errors (100% of non-strict mode
+              Enabled TypeScript, eliminated 705 errors (100% of non-strict mode
               errors) to reduce risk of future changes
             </li>
             <li>
@@ -363,7 +362,7 @@
             recent).
           </li>
           <li>
-            Championed migrating main SEO pages to Next.JS, resulting in
+            Championed migrating main SEO pages to Next.js, resulting in
             Lighthouse scores in the 90's, and improved rankings on Google
             Search.
           </li>
@@ -386,7 +385,7 @@
           </div>
         </summary>
         <div class="team_size">
-          <h5>Teams</h5>
+          <h5>Teams (concurrent)</h5>
           <ul>
             <li>Product (5 engineers)</li>
             <li>Platform (2 engineers)</li>
@@ -553,12 +552,12 @@
 				</ul>
 			</div>
 			<div class="significant-project">
-				<h3>SquareFoot Next.JS migration</h3>
+				<h3>SquareFoot Next.js migration</h3>
 				<ul>
 					<li>
 						Recognized an opportunity to improve web performance, increase developer effectiveness,
 						and wrangle technical debt by moving from bespoke webpack configuration to standard
-						Next.JS config
+						Next.js config
 					</li>
 					<li>
 						Led the team in improving lighthouse scores from 20's to 70's, right as Google Page
